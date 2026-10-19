@@ -1,5 +1,5 @@
 # Requirements for Parallel Gripper Control Software
-# STServo SDK for Feetech/Waveshare servo communication
+# STServo SDK for Feetech servo communication
 # Note: STServo SDK may need to be installed manually from:
 # https://github.com/FEETECH-RC/STServo_SDK_Python
 

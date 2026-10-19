@@ -1,11 +1,13 @@
 # Bill of Materials (BOM)
 
+The gripper uses the existing SO-ARM100/101 servo bus, controller, and power supply.
+These arm components are outside this gripper BOM.
+
 ## Electronic Components
 
 | Article | Description | Qty | Price | Link |
 |---------|-------------|:---:|-------|------|
 | ST-3215-C018 | Feetech Servo Motor | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
-| | Bus Servo Adapter Board | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 
 ## Bearings
 
@@ -58,23 +60,25 @@
 
 | Category | Items | Est. Cost |
 |----------|-------|-----------|
-| Electronics | Servo ST-3215 + Adapter | ~$40.00 |
+| Electronics | Servo ST-3215 | ~$29.00 |
 | Bearings | MF106ZZ (2) | ~$2.00* |
-| Rods | D6x125 (2) | ~$1.00* |
+| Rods | D6x125 (2) | ~$4.00* |
 | 3D-Printed Parts | 8 parts | ~$12.00 |
 | Fasteners | Various screws & nuts | ~$3.00* |
-| **Total** | | **~$62.00** |
+| **Total** | | **~$50.00** |
 
 ### Full Pack Prices (with extras)
 
+Example using the listed aluminium tube 6x3x250 mm two-pack and full fastener packs:
+
 | Category | Pack Price |
 |----------|------------|
-| Electronics | ~$40.00 |
-| Bearings | ~$2.00 |
-| Rods | ~$2.00 |
+| Electronics | ~$29.00 |
+| Bearings | ~$9.99 |
+| Rods | ~$5.79 |
 | 3D-Printed Parts | ~$12.00 |
-| Fasteners | ~$27.00 |
-| **Total** | **~$83.00** |
+| Fasteners | ~$26.76 |
+| **Total** | **~$83.54** |
 
 *\* Pro-rated from bulk pack prices*
 
