@@ -22,6 +22,11 @@ jobs:
       - name: Run pre-commit hooks
         run: pre-commit run --all-files
 
+      - name: Check documentation translations
+        run: |
+          python -m unittest discover -s .github/scripts -p 'test_*.py'
+          python .github/scripts/check_translations.py
+
   validate:
     runs-on: ubuntu-latest
     steps:

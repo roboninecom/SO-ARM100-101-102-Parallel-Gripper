@@ -1,0 +1,111 @@
+<!-- translation-navigation -->
+[English](../../en/docs/bom.md) · [Русский](../../ru/docs/bom.md) · [Español](../../es/docs/bom.md) · [Français](../../fr/docs/bom.md) · [Deutsch](../../de/docs/bom.md) · [Português (Brasil)](../../pt-BR/docs/bom.md) · [简体中文](../../zh-CN/docs/bom.md) · [日本語](../../ja/docs/bom.md) · [हिन्दी](../../hi/docs/bom.md) · [العربية](bom.md)
+
+[الأصل الإنجليزي](../../../bom.md)
+
+[العربية](../README.md)
+
+> ترجمة آلية كاملة لم يراجعها متحدثون أصليون بعد. الصور والشيفرة وملفات CAD وPDF الأصلية مشتركة. عند الالتباس يُرجى الرجوع إلى الأصل الإنجليزي.
+<!-- /translation-navigation -->
+
+<!-- translated-content -->
+<a id="bill-of-materials-bom"></a>
+# قائمة المواد (BOM)
+
+<a id="electronic-components"></a>
+## المكونات الإلكترونية
+
+| المادة | وصف | القيادة | السعر | الرابط |
+|---------|-------------|:---:|-------|------|
+| ST-3215-C018 | Feetech محرك الخدمة | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
+| | لوحة تعديل الحافلة | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
+
+<a id="bearings"></a>
+## محامل
+
+| المادة | وصف | القيادة | السعر | الرابط |
+|---------|-------------|:---:|-------|------|
+| MF106ZZ | حمالة 6x10x3 مم | 2 | ~ $9.99 (10pcs) | [الأمازون](https://www.amazon.com/uxcell-MF106ZZ-6x10x3mm-Shielded-Bearings/dp/B08H289LLQ) |
+
+<a id="rods"></a>
+## قضبان التوجيه
+
+| المادة | وصف | القيادة | السعر | الرابط |
+|---------|-------------|:---:|-------|------|
+| | أنبوب الألياف الكربونية 6x4x200mm | 1 | ~ $5.29 (2pcs) | [الأمازون](https://www.amazon.com/MECCANIXITY-Carbon-Pultruded-Airplane-Quadcopter/dp/B0CZDCW2NL) |
+| | أنبوب الألياف الكربونية 6x4x200mm | 1 | ~$6.99 (3(مكونات) | [الأمازون](https://www.amazon.com/MECCANIXITY-Surface-Airplane-Multicopter-Quadcopter/dp/B0CZDFS38K) |
+| | أنبوب ألومنيوم مستديرة 6x3x250 مم | 1 | ~$5.79 (2(مكونات) | [الأمازون](https://www.amazon.com/Aluminum-Seamless-Straight-Industry-Decoration/dp/B0DG28M691) |
+| | أنبوب ألومنيوم مستديرة 6x4x250 مم | 1 | ~ $9.39 (4pcs) | [الأمازون](https://www.amazon.com/uxcell-Aluminum-Round-Length-Tubing/dp/B0BFF95FWJ) |
+| | عصا الألومنيوم الدائرة D6x300 مم | 1 | ~$11.99 (10(مكونات) | [الأمازون](https://www.amazon.com/Aluminum-Diameter-Helicopter-Precision-Machining/dp/B0C495BFV2) |
+| | عصا من الفولاذ الدائر D6x125 مم | 1 | ~$11.89 (5(مكونات) | [الأمازون](https://www.amazon.com/SKYPRO-Stainless-Diameter-Industry-Working/dp/B0CLCSWSJ9) |
+| | عصا من الفولاذ الدائر D6x125 مم | 2 | ~$13.67 (1(مكونات) | [الأمازون](https://www.amazon.com/Stainless-Diameter-2mm-14mm-Linear-Ground/dp/B0F1ZYYZ89) |
+
+*تحتاج فقط1نوع من هذه القائمة،2المكونات ذات الطول125مم*
+
+<a id="3d-printed-parts"></a>
+## الأجزاء المطبوعة 3D
+
+| رقم الجزء | وصف | القيادة | -إست السعر |
+|-------------|-------------|:---:|------------|
+| RB9.01.062.010 | الهيكل الرئيسي | 1 | ~$5.00 |
+| RB9.01.062.020 | فك التثبيت | 2 | ~$3.00 |
+| RB9.01.062.030 | جريدة مسننة | 2 | ~$1.00 |
+| RB9.01.062.040 | ترس | 1 | ~$0.50 |
+| RB9.01.060.074 | حامل الكاميرا | 1 | ~$2.00 |
+| RB9.01.060.080 | حامل | 1 | ~$1.00 |
+| RB9.01.060.090 | مباعد الكاميرا | 1 | ~$0.50 |
+
+*3D تقديرات الطباعة على أساس ~$0.05/g خيط PLA + تكاليف الكهرباء*
+
+<a id="fasteners"></a>
+## أدوات التثبيت
+
+| المادة | وصف | القيادة | السعر | الرابط |
+|---------|-------------|:---:|-------|------|
+| | مسدس DIN 7991 M4x8 | 2 | ~$6.99 (100(مكونات) | [الأمازون](https://www.amazon.com/Socket-Countersunk-Stainless-Screwdriver-Included/dp/B0DWZVYSMZ) |
+| | المسامير DIN 912 M2x8 | 2 | ~$6.79 (120(مكونات) | [الأمازون](https://www.amazon.com/TOP-VIGOR-Stainless-Replacement-Motorcycle-Repairment/dp/B0D5CHC6GR) |
+| | المكسرات DIN 934 M2 | 4 | ~ $5.99 (100pcs) | [الأمازون](https://www.amazon.com/QXSKSLH-Metric-Stainless-Hex-Nuts-100pcs/dp/B0CSWRN19Q) |
+| | المجموعة المعقب DIN 913 M3x4 | 4 | ~$6.99 (100(مكونات) | [الأمازون](https://www.amazon.com/Socket-M3-0-5-Metric-14-9-45H-Quantity/dp/B07CPNB1WP) |
+
+---
+
+<a id="cost-summary"></a>
+## خلاصة التكاليف
+
+<a id="follower-gripper"></a>
+### قابض الذراع التابعة
+
+| الفئة | المواد | -إست التكلفة |
+|----------|-------|-----------|
+| الإلكترونيات | الخدمة ST-3215 + مُعدّل | ~$40.00 |
+| محامل | MF106ZZ (2) | ~$2.00* |
+| قضبان التوجيه | D6x125 (2) | ~$1.00* |
+| الأجزاء المطبوعة 3D | 8 قطع | ~$12.00 |
+| أدوات التثبيت | المسامير المختلفة | ~$3.00* |
+| **إجمالي** | | **~$62.00** |
+
+<a id="full-pack-prices-with-extras"></a>
+### أسعار الحزمة الكاملة (مع إضافات)
+
+| الفئة | سعر الحزمة |
+|----------|------------|
+| الإلكترونيات | ~$40.00 |
+| محامل | ~$2.00 |
+| قضبان التوجيه | ~$2.00 |
+| الأجزاء المطبوعة 3D | ~$12.00 |
+| أدوات التثبيت | ~$27.00 |
+| **إجمالي** | **~$83.00** |
+
+*\* مقارنة مع أسعار الحزم الكبيرة*
+
+---
+
+<a id="notes"></a>
+## الملاحظات
+
+- **الأسعار** هي تقريرية وتعتمد على قائمة Amazon/الموردين اعتبارا من يناير 2026
+- **المدخرات الكبيرة**: يتم توفير العصبات والحاملات في حزم ، مما يوفر إضافيات للمبنيات المستقبلية
+- **3D تكاليف الطباعة** افتراض الطباعة المنزلية مع PLA (~ 200-300 غرام من المواد الإجمالية)
+- **الشحن** غير مدرجة في التقديرات
+- النظر في الطلب من الموردين الوحيدين لتقليل تكاليف الشحن
+<!-- /translated-content -->

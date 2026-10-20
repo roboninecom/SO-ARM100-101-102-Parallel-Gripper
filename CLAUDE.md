@@ -1,5 +1,9 @@
 # CLAUDE.md
 
+<!-- documentation-languages -->
+[English](docs/i18n/en/CLAUDE.md) · [Русский](docs/i18n/ru/CLAUDE.md) · [Español](docs/i18n/es/CLAUDE.md) · [Français](docs/i18n/fr/CLAUDE.md) · [Deutsch](docs/i18n/de/CLAUDE.md) · [Português (Brasil)](docs/i18n/pt-BR/CLAUDE.md) · [简体中文](docs/i18n/zh-CN/CLAUDE.md) · [日本語](docs/i18n/ja/CLAUDE.md) · [हिन्दी](docs/i18n/hi/CLAUDE.md) · [العربية](docs/i18n/ar/CLAUDE.md)
+<!-- /documentation-languages -->
+
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
 ## What this repository is

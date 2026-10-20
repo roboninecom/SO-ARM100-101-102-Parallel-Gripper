@@ -1,5 +1,9 @@
 # Microscope Slide Gripper in MuJoCo
 
+<!-- documentation-languages -->
+[English](../../../docs/i18n/en/community/histology-slide-gripper/mujoco/README.md) · [Русский](../../../docs/i18n/ru/community/histology-slide-gripper/mujoco/README.md) · [Español](../../../docs/i18n/es/community/histology-slide-gripper/mujoco/README.md) · [Français](../../../docs/i18n/fr/community/histology-slide-gripper/mujoco/README.md) · [Deutsch](../../../docs/i18n/de/community/histology-slide-gripper/mujoco/README.md) · [Português (Brasil)](../../../docs/i18n/pt-BR/community/histology-slide-gripper/mujoco/README.md) · [简体中文](../../../docs/i18n/zh-CN/community/histology-slide-gripper/mujoco/README.md) · [日本語](../../../docs/i18n/ja/community/histology-slide-gripper/mujoco/README.md) · [हिन्दी](../../../docs/i18n/hi/community/histology-slide-gripper/mujoco/README.md) · [العربية](../../../docs/i18n/ar/community/histology-slide-gripper/mujoco/README.md)
+<!-- /documentation-languages -->
+
 The SO-ARM101 with the histology slide parallel gripper, exported from Fusion and mounted in place of the stock Robo9 clamps.
 
 Tested with `mujoco` 3.4.0 in the `lerobot` conda environment. No ROS 2 or Docker is required.

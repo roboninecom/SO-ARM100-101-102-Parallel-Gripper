@@ -1,5 +1,9 @@
 # MuJoCo
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/mujoco/README.md) · [Русский](../../docs/i18n/ru/simulation/mujoco/README.md) · [Español](../../docs/i18n/es/simulation/mujoco/README.md) · [Français](../../docs/i18n/fr/simulation/mujoco/README.md) · [Deutsch](../../docs/i18n/de/simulation/mujoco/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/mujoco/README.md) · [简体中文](../../docs/i18n/zh-CN/simulation/mujoco/README.md) · [日本語](../../docs/i18n/ja/simulation/mujoco/README.md) · [हिन्दी](../../docs/i18n/hi/simulation/mujoco/README.md) · [العربية](../../docs/i18n/ar/simulation/mujoco/README.md)
+<!-- /documentation-languages -->
+
 **Status: Ready**
 
 MuJoCo simulation using `mujoco_ros2_control` (ros-controls fork). MuJoCo converts the URDF to MJCF internally and runs physics + rendering in the `ros2_control_node` process.

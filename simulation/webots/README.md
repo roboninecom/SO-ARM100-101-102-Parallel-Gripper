@@ -1,5 +1,9 @@
 # Webots
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/webots/README.md) · [Русский](../../docs/i18n/ru/simulation/webots/README.md) · [Español](../../docs/i18n/es/simulation/webots/README.md) · [Français](../../docs/i18n/fr/simulation/webots/README.md) · [Deutsch](../../docs/i18n/de/simulation/webots/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/webots/README.md) · [简体中文](../../docs/i18n/zh-CN/simulation/webots/README.md) · [日本語](../../docs/i18n/ja/simulation/webots/README.md) · [हिन्दी](../../docs/i18n/hi/simulation/webots/README.md) · [العربية](../../docs/i18n/ar/simulation/webots/README.md)
+<!-- /documentation-languages -->
+
 > **Status: Unstable** -- Webots integration works but has known performance and rendering issues. Docker-only usage is recommended.
 
 Webots simulation using `webots_ros2_control`. The Webots driver embeds the controller manager.

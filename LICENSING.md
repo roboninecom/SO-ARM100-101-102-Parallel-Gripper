@@ -1,5 +1,9 @@
 # Licensing
 
+<!-- documentation-languages -->
+[English](docs/i18n/en/LICENSING.md) · [Русский](docs/i18n/ru/LICENSING.md) · [Español](docs/i18n/es/LICENSING.md) · [Français](docs/i18n/fr/LICENSING.md) · [Deutsch](docs/i18n/de/LICENSING.md) · [Português (Brasil)](docs/i18n/pt-BR/LICENSING.md) · [简体中文](docs/i18n/zh-CN/LICENSING.md) · [日本語](docs/i18n/ja/LICENSING.md) · [हिन्दी](docs/i18n/hi/LICENSING.md) · [العربية](docs/i18n/ar/LICENSING.md)
+<!-- /documentation-languages -->
+
 Copyright (c) 2025 Robonine
 
 This project releases different kinds of material under different licences.

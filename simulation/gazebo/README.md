@@ -1,5 +1,9 @@
 # Gazebo (gz-sim)
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/gazebo/README.md) · [Русский](../../docs/i18n/ru/simulation/gazebo/README.md) · [Español](../../docs/i18n/es/simulation/gazebo/README.md) · [Français](../../docs/i18n/fr/simulation/gazebo/README.md) · [Deutsch](../../docs/i18n/de/simulation/gazebo/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/gazebo/README.md) · [简体中文](../../docs/i18n/zh-CN/simulation/gazebo/README.md) · [日本語](../../docs/i18n/ja/simulation/gazebo/README.md) · [हिन्दी](../../docs/i18n/hi/simulation/gazebo/README.md) · [العربية](../../docs/i18n/ar/simulation/gazebo/README.md)
+<!-- /documentation-languages -->
+
 **Status: Ready**
 
 Gazebo simulation using `gz_ros2_control` plugin. The controller manager runs inside the Gazebo process.

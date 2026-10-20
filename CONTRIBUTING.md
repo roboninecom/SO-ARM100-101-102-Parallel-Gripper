@@ -1,5 +1,9 @@
 # Contributing to Open-Source Parallel Gripper
 
+<!-- documentation-languages -->
+[English](docs/i18n/en/CONTRIBUTING.md) · [Русский](docs/i18n/ru/CONTRIBUTING.md) · [Español](docs/i18n/es/CONTRIBUTING.md) · [Français](docs/i18n/fr/CONTRIBUTING.md) · [Deutsch](docs/i18n/de/CONTRIBUTING.md) · [Português (Brasil)](docs/i18n/pt-BR/CONTRIBUTING.md) · [简体中文](docs/i18n/zh-CN/CONTRIBUTING.md) · [日本語](docs/i18n/ja/CONTRIBUTING.md) · [हिन्दी](docs/i18n/hi/CONTRIBUTING.md) · [العربية](docs/i18n/ar/CONTRIBUTING.md)
+<!-- /documentation-languages -->
+
 Thank you for your interest in contributing to this project! We welcome contributions from the robotics community.
 
 ## Ways to Contribute
