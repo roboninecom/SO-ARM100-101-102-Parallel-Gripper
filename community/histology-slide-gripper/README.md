@@ -1,5 +1,9 @@
 # Histology Slide Gripper (Community Mod)
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/community/histology-slide-gripper/README.md) · [Русский](../../docs/i18n/ru/community/histology-slide-gripper/README.md) · [Español](../../docs/i18n/es/community/histology-slide-gripper/README.md) · [Français](../../docs/i18n/fr/community/histology-slide-gripper/README.md) · [Deutsch](../../docs/i18n/de/community/histology-slide-gripper/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/community/histology-slide-gripper/README.md) · [简体中文](../../docs/i18n/zh-CN/community/histology-slide-gripper/README.md) · [日本語](../../docs/i18n/ja/community/histology-slide-gripper/README.md) · [हिन्दी](../../docs/i18n/hi/community/histology-slide-gripper/README.md) · [العربية](../../docs/i18n/ar/community/histology-slide-gripper/README.md)
+<!-- /documentation-languages -->
+
 A community variant of the SO-ARM100/101 Parallel Gripper by [Michael Viacheslavov](https://github.com/histochemichael), adapted for histology and histotechnology automation: gentle pickup of standard 75 x 25 mm microscope slides, slide staining dippers/racks, and a close camera view of the grasp.
 
 <div align="center">

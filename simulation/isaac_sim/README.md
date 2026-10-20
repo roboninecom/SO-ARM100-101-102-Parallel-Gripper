@@ -1,5 +1,9 @@
 # NVIDIA Isaac Sim
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/isaac_sim/README.md) · [Русский](../../docs/i18n/ru/simulation/isaac_sim/README.md) · [Español](../../docs/i18n/es/simulation/isaac_sim/README.md) · [Français](../../docs/i18n/fr/simulation/isaac_sim/README.md) · [Deutsch](../../docs/i18n/de/simulation/isaac_sim/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/isaac_sim/README.md) · [简体中文](../../docs/i18n/zh-CN/simulation/isaac_sim/README.md) · [日本語](../../docs/i18n/ja/simulation/isaac_sim/README.md) · [हिन्दी](../../docs/i18n/hi/simulation/isaac_sim/README.md) · [العربية](../../docs/i18n/ar/simulation/isaac_sim/README.md)
+<!-- /documentation-languages -->
+
 **Status: Not tested (external simulator)**
 
 Isaac Sim runs externally and communicates with ROS2 via `topic_based_ros2_control`. You run Isaac Sim separately and launch the ROS2 side with `sim:=isaac`.

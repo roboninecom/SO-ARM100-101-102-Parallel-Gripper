@@ -1,5 +1,9 @@
 # Assembly Guide for Follower Gripper SO-ARM101
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/assembly-guide.md) · [Русский](i18n/ru/docs/assembly-guide.md) · [Español](i18n/es/docs/assembly-guide.md) · [Français](i18n/fr/docs/assembly-guide.md) · [Deutsch](i18n/de/docs/assembly-guide.md) · [Português (Brasil)](i18n/pt-BR/docs/assembly-guide.md) · [简体中文](i18n/zh-CN/docs/assembly-guide.md) · [日本語](i18n/ja/docs/assembly-guide.md) · [हिन्दी](i18n/hi/docs/assembly-guide.md) · [العربية](i18n/ar/docs/assembly-guide.md)
+<!-- /documentation-languages -->
+
 This guide provides step-by-step instructions for assembling the parallel gripper. Follow these steps carefully to ensure proper operation.
 
 ## Required Tools

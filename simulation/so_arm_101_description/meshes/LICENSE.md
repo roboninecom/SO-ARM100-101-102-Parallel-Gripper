@@ -1,5 +1,9 @@
 # Licensing of the meshes in this directory
 
+<!-- documentation-languages -->
+[English](../../../docs/i18n/en/simulation/so_arm_101_description/meshes/LICENSE.md) · [Русский](../../../docs/i18n/ru/simulation/so_arm_101_description/meshes/LICENSE.md) · [Español](../../../docs/i18n/es/simulation/so_arm_101_description/meshes/LICENSE.md) · [Français](../../../docs/i18n/fr/simulation/so_arm_101_description/meshes/LICENSE.md) · [Deutsch](../../../docs/i18n/de/simulation/so_arm_101_description/meshes/LICENSE.md) · [Português (Brasil)](../../../docs/i18n/pt-BR/simulation/so_arm_101_description/meshes/LICENSE.md) · [简体中文](../../../docs/i18n/zh-CN/simulation/so_arm_101_description/meshes/LICENSE.md) · [日本語](../../../docs/i18n/ja/simulation/so_arm_101_description/meshes/LICENSE.md) · [हिन्दी](../../../docs/i18n/hi/simulation/so_arm_101_description/meshes/LICENSE.md) · [العربية](../../../docs/i18n/ar/simulation/so_arm_101_description/meshes/LICENSE.md)
+<!-- /documentation-languages -->
+
 **This directory is mixed.** Not every mesh here is owned by Robonine, so the
 licence is assigned per file rather than per directory.
 
