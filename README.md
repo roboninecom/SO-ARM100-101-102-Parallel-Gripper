@@ -8,9 +8,11 @@
 
 [![SO-ARM101 Parallel Gripper](assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [Watch the gripper in action!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [Watch the gripper in action!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Buy the SO-ARM102 kit with a parallel gripper](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robonine.com)** for the open-source SO-ARM100/101 robotic platform.
+
+> Prefer a complete robot arm kit with a parallel gripper? **[Buy the SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](SOFTWARE-LICENSE.txt)
@@ -134,6 +136,8 @@ The gripper supports multiple cameras via interchangeable camera holder:
 ---
 
 ## 🚀 Quick Start
+
+For a complete robot arm kit with a parallel gripper, **[buy the SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. To build the SO-ARM100/101 gripper yourself, follow the steps below.
 
 ### 1. Print the Parts (2-4 hours)
 
