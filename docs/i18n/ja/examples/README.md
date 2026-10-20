@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## 構成
 
+既存のグリッパーを接続する SO-ARM100/101 セルボバスとコントローラー
+制御器のUSBシリアルポートを設定する `STS_ID` グレーパーセルボID (通常6点) SO-ARM101),
+そのポートを使って他のアプリケーションを閉じる.
+
 実行例の前に,設定パラメータを調整する必要があります.
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo SDKの問題
 確認してください STServo SDKが正しくインストールされている:
-1. 下載: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. ダウンロードされたZIPファイルを抜き出し, `STservo_sdk` フォルダ (フォルダーそのものを含む) に `software/python/` ディレクトリ
+1. クローン [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. 複製 `STservo_sdk` フォルダ (フォルダーそのものを含む) に `software/python/` ディレクトリ
 
 <a id="creating-your-own-examples"></a>
 ## 自分 の 模範 を 作る

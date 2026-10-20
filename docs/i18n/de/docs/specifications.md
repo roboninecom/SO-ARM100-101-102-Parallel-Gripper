@@ -25,7 +25,7 @@ Leichtgewichtes 3D-gedrucktes Endefektor, entworfen von **Robonine** für die Op
 ## Schlüsselmerkmale
 
 - Open-Source-Entwurf
-- BOM-Kosten für einen Gripper: ~ $62
+- BOM-Kosten für einen Gripper: ~ $50
 - Kann während eines Zyklus auf einem FDM 3D-Drucker für den Verbraucher gedruckt werden
 - Kompatibel mit beliebten Videokameras:
   - Orbbec Zwillinge 2

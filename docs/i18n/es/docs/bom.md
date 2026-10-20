@@ -12,13 +12,15 @@
 <a id="bill-of-materials-bom"></a>
 # Lista de materiales (BOM)
 
+El sujetador utiliza el SO-ARM100/101 Servobus, controlador y fuente de alimentación.
+Estos componentes del brazo están fuera de este BOM.
+
 <a id="electronic-components"></a>
 ## Componentes electrónicos
 
 | Artículo | Descripción | El número de | Precio | Enlace |
 |---------|-------------|:---:|-------|------|
 | ST-3215-C018 | Feetech Motor de servicio | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
-| | Tabla de adaptación del bus servo | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 
 <a id="bearings"></a>
 ## Rodamientos
@@ -77,24 +79,26 @@
 
 | Categoría | Artículos | ¿Qué es esto? El coste |
 |----------|-------|-----------|
-| Electrónica | Servicios ST-3215 + Adaptador | ~$40.00 |
+| Electrónica | Servicios ST-3215 | ~$29.00 |
 | Rodamientos | MF106ZZ (2) | ~$2.00* |
-| Varillas guía | D6x125 (2) | ~$1.00* |
+| Varillas guía | D6x125 (2) | ~$4.00* |
 | Partes impresas en 3D | 8 partes | ~$12.00 |
 | Elementos de fijación | Varios tornillos y nueces | ~$3.00* |
-| **Total** | | **~$62.00** |
+| **Total** | | **~$50.00** |
 
 <a id="full-pack-prices-with-extras"></a>
 ### Precios del paquete completo (con extras)
 
+Ejemplo de uso del tubo de aluminio 6x3x250 mm envasado en dos y lleno:
+
 | Categoría | Precio del paquete |
 |----------|------------|
-| Electrónica | ~$40.00 |
-| Rodamientos | ~$2.00 |
-| Varillas guía | ~$2.00 |
+| Electrónica | ~$29.00 |
+| Rodamientos | ~$9.99 |
+| Varillas guía | ~$5.79 |
 | Partes impresas en 3D | ~$12.00 |
-| Elementos de fijación | ~$27.00 |
-| **Total** | **~$83.00** |
+| Elementos de fijación | ~$26.76 |
+| **Total** | **~$83.54** |
 
 *\* Proporcionado a partir de los precios del envase*
 

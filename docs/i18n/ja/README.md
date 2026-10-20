@@ -16,14 +16,16 @@
 
 [![SO-ARM101 平行グリッパー](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [握手機を動かす!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [握手機を動かす!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [購入する SO-ARM102 パラレルグリッパー付きのキット](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 3Dプリントの軽量平行グリッパー **[Robonine](https://robonine.com)** オープンソースの SO-ARM100/101 ロボットプラットフォーム
+
+> パラレルグリッパー付きの ロボット腕セットを 気に入った? **[購入する SO-ARM102 キット](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![ハードウェア: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![ソフトウェア: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![ドクター: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![費用: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![費用: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![組み立て時間: 30分](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@
 | **0.5mm 繰り返し性** | 高精度な位置付け |
 | **カメラ対応** | サポート RealSense, Orbbec,USBカメラ |
 | **3Dプリント可能** | 標準FDMプリンターですべての部品を印刷する |
-| **~ $62 総費用** | 安価なオープンソースソリューション |
+| **~ $50 総費用** | 安価なオープンソースソリューション |
 | **簡単に組み立て** | 30-45基本ツールによる分 |
 
 ---
@@ -139,11 +141,11 @@
 <a id="-bill-of-materials"></a>
 ## ⁇  資料簿
 
-**総費用: ~$62** ([アマゾンリンクのフルBOM](docs/bom.md))
+**総費用: ~$50** ([アマゾンリンクのフルBOM](docs/bom.md))
 
 | カテゴリー | 構成要素 | - エスト 費用 |
 |----------|------------|-----------|
-| 電子機器 | Feetech STS3215 セルボ+セルボバス アダプター | ~$40 |
+| 電子機器 | Feetech STS3215 セルボ | ~$29 |
 | ベアリング | MF106ZZ (x2) | ~$2 |
 | アルミニウム/炭素管 | D6x1×125mm (x2) | ~$4 |
 | 3Dプリント | 8部 (~100-150g PLA) | ~$12 |
@@ -153,6 +155,8 @@
 
 <a id="-quick-start"></a>
 ## ⁇  迅速なスタート
+
+パラレルグリッパー付きのロボットアームキット **[購入する SO-ARM102 キット](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. 建設のために SO-ARM100/101 手を握って 下の手順に従ってください
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. パーツ を 印刷 する (2-4 時間)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### 電子機器
 - 1× Feetech STS3215 セルボモーター
-- 1×バスセルボアダプターボード (Waveshare)
+
+握手を既存のものに接続する SO-ARM100/101 セルボバスとコントローラー
+ロボットコントローラと電源は,グリッパーBOMの外の腕セットアップの一部です.
 
 <a id="mechanical"></a>
 ### メカニカル
@@ -384,7 +390,6 @@ docker compose run gazebo    # or mujoco, webots
 ## ⁇ リンク
 
 - [Feetech STS3215 セルボ](https://www.feetechrc.com/525603.html)
-- [Waveshare バスセルボアダプター](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

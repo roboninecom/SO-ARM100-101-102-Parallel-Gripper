@@ -12,13 +12,15 @@
 <a id="bill-of-materials-bom"></a>
 # Nomenclature (BOM)
 
+La poignée utilise les dispositifs existants SO-ARM100/101 Servobus, contrôleur et alimentation électrique.
+Ces composants du bras sont à l'extérieur de ce BOM.
+
 <a id="electronic-components"></a>
 ## Components électroniques
 
 | Article de la directive | Définition | Qty | Prix | Le lien |
 |---------|-------------|:---:|-------|------|
 | ST-3215-C018 | Feetech Moteur de servo | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
-| | Panneau d'adaptateur de bus servo | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 
 <a id="bearings"></a>
 ## Roulements
@@ -77,24 +79,26 @@
 
 | Catégorie | Articles de l'annexe | Est. Coût |
 |----------|-------|-----------|
-| Électronique | Servo ST-3215 + Adapteur | ~$40.00 |
+| Électronique | Servo ST-3215 | ~$29.00 |
 | Roulements | MF106ZZ (2) | ~$2.00* |
-| Tiges de guidage | D6x125 (2) | ~$1.00* |
+| Tiges de guidage | D6x125 (2) | ~$4.00* |
 | Parties imprimées en 3D | 8 pièces | ~$12.00 |
 | Fixations | Différents vis et noix | ~$3.00* |
-| **Total** | | **~$62.00** |
+| **Total** | | **~$50.00** |
 
 <a id="full-pack-prices-with-extras"></a>
 ### Prix de l'emballage complet (avec suppléments)
 
+Exemple utilisant les tubes d'aluminium 6x3x250 mm en deux emballages et des emballages de fixation complets:
+
 | Catégorie | Prix de l'emballage |
 |----------|------------|
-| Électronique | ~$40.00 |
-| Roulements | ~$2.00 |
-| Tiges de guidage | ~$2.00 |
+| Électronique | ~$29.00 |
+| Roulements | ~$9.99 |
+| Tiges de guidage | ~$5.79 |
 | Parties imprimées en 3D | ~$12.00 |
-| Fixations | ~$27.00 |
-| **Total** | **~$83.00** |
+| Fixations | ~$26.76 |
+| **Total** | **~$83.54** |
 
 *\* Résultats proportionnels à partir des prix des emballages en vrac*
 

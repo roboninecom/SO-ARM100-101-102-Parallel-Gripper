@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## Конфигурация
 
+Подключить прицеп к существующему SO-ARM100/101 сервошине и контроллеру.
+Используйте серийный порт контроллера USB, установленный `STS_ID` к идентификатору сервоприцепления (обычно 6 на SO-ARM101),
+и закрыть другие приложения с использованием этого порта.
+
 Прежде чем запустить примеры, вам может потребоваться скорректировать параметры конфигурации:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo Проблемы SDK
 Убедитесь, что STServo SDK установлен правильно:
-1. Скачать из: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. Извлечь загруженный файл ZIP и скопировать `STservo_sdk` папка (с самой папкой) к `software/python/` справочник
+1. Клонируйте [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. Скопируйте `STservo_sdk` папка (с самой папкой) к `software/python/` Справочник.
 
 <a id="creating-your-own-examples"></a>
 ## Создайте свои собственные примеры

@@ -12,13 +12,15 @@
 <a id="bill-of-materials-bom"></a>
 # Stückliste (BOM)
 
+Der Griff benutzt die bestehenden SO-ARM100/101 Servobus, Steuerung und Stromversorgung.
+Diese Armkomponenten befinden sich außerhalb dieses Griff-BOM.
+
 <a id="electronic-components"></a>
 ## Elektronische Komponenten
 
 | Artikel | Beschreibung | Qty | Preis | Link |
 |---------|-------------|:---:|-------|------|
 | ST-3215-C018 | Feetech Servomotor | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
-| | Busservo-Adapterbrett | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 
 <a id="bearings"></a>
 ## Lager
@@ -77,24 +79,26 @@
 
 | Kategorie | Gegenstände | Ist. Kosten |
 |----------|-------|-----------|
-| Elektronik | Servo ST-3215 + Adapter | ~$40.00 |
+| Elektronik | Servo ST-3215 | ~$29.00 |
 | Lager | MF106ZZ (2) | ~$2.00* |
-| Führungsstangen | D6x125 (2) | ~$1.00* |
+| Führungsstangen | D6x125 (2) | ~$4.00* |
 | 3D-gedruckte Teile | 8 Teile | ~$12.00 |
 | Befestigungsteile | Verschiedene Schrauben und Nüsse | ~$3.00* |
-| **Gesamtzahl** | | **~$62.00** |
+| **Gesamtzahl** | | **~$50.00** |
 
 <a id="full-pack-prices-with-extras"></a>
 ### Vollverpackungspreise (mit Extras)
 
+Beispiel mit den aufgelisteten Aluminiumröhren 6x3x250 mm Zwei- und Vollverpackungen:
+
 | Kategorie | Verpackungspreis |
 |----------|------------|
-| Elektronik | ~$40.00 |
-| Lager | ~$2.00 |
-| Führungsstangen | ~$2.00 |
+| Elektronik | ~$29.00 |
+| Lager | ~$9.99 |
+| Führungsstangen | ~$5.79 |
 | 3D-gedruckte Teile | ~$12.00 |
-| Befestigungsteile | ~$27.00 |
-| **Gesamtzahl** | **~$83.00** |
+| Befestigungsteile | ~$26.76 |
+| **Gesamtzahl** | **~$83.54** |
 
 *\* Pro-Rate aus den Preisen der Packungen*
 

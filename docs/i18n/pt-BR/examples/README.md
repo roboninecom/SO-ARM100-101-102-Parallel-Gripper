@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## Configuração
 
+Conectar o agarrador através do SO-ARM100/101 Servobus e controlador.
+Usar o controle de porta serial USB, definido `STS_ID` para a identificação servo do agarrador (normalmente 6 em SO-ARM101),
+e fechar outras aplicações usando essa porta.
+
 Antes de executar exemplos, pode ser necessário ajustar os parâmetros de configuração:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo Questões do SDK
 Certifique-se de que STServo O SDK está corretamente instalado:
-1. Descarga em: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. Extrair o arquivo ZIP baixado e copiar `STservo_sdk` pasta (com a própria pasta) para `software/python/` diretório
+1. Clonar o [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. Copiar o `STservo_sdk` pasta (com a própria pasta) para `software/python/` O diretório.
 
 <a id="creating-your-own-examples"></a>
 ## Criando seus próprios exemplos

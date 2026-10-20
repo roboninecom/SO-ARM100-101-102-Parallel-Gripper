@@ -32,7 +32,7 @@ Traz o teu Follower Gripper para SO-ARM101 Vão correr!
 ### Software
 - [ ] Python 3.6 + instalado
 - [ ] STServo SDK baixado
-- [ ] Interface de comunicação em série
+- [ ] Existência SO-ARM100/101 controlador, conexão USB e alimentação do braço
 
 ---
 
@@ -70,18 +70,17 @@ Para garantir que as hastes compradas se encaixem melhor nas sujeiras, é precis
 <a id="step-2-gather-components-1-2-days-shipping"></a>
 ## Passo 2: Recolha os componentes (1-2 dias de envio)
 
-As peças de encomenda [Lista de Materiais](bom.md):
+As peças de encomenda [Lista de Materiais](bom.md). Reutilizar o controlador de braço e a alimentação; estes estão fora do custo da sujeira:
 
 | Componente | Qty | - Não. Custo |
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
-| Tabela de adaptador de autocarro | 1 | ~$11 |
 | MF106ZZ Rolamentos (10x6x3 mm) | 2 | ~$2 |
 | Tubos de alumínio/carbono D6x1x125mm | 2 | ~$4 |
 | Impressão 3D PLA| 8 partes | ~$12 |
 | Ferramentas de fixação (fusos/nuts M2/M4) | variados | ~$3 |
 
-**Custo estimado total: ~$62**
+**Custo estimado total: ~$50**
 
 ---
 
@@ -132,9 +131,11 @@ Seguir os detalhes [Guia de Assembleia](assembly-guide.md):
 ## Passo 5: Primeiro teste (5 minutos)
 
 1. **Conectar hardware**
-   - Servo → Adaptador Servo de ônibus
-   - Adaptador de ônibus → Computador (USB)
-   - Fornecimento de energia (6-12V, min 3A)
+   - Gripper servo → servo n.o 5 no SO-ARM101 autocarro
+   - Controlador de braço existente → Computador (USB)
+   - Usar a fonte de alimentação do braço configurada para os servos instalados
+   - Configurar a identificação servo do agarrador para corresponder `STS_ID` E mantém-no único no autocarro .
+   - Fechar outras aplicações de controlo do robô antes de abrir a porta em série
 
 2. **Realizar teste básico**
    ```bash

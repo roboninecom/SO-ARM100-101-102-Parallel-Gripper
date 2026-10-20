@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## الإعداد
 
+قم بتوصيل المقبض عبر الجهاز الموجود SO-ARM100/101 حافلة الخدمة والتحكم
+استخدم منفذ USB المتسلسل للسيطرة، تعيين `STS_ID` لتحديد الهوية الخدمية للقبض (عادة 6 على SO-ARM101),
+وأغلق التطبيقات الأخرى باستخدام تلك الميناء.
+
 قبل تشغيل الأمثلة، قد تحتاج إلى تعديل معايير التكوين:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo قضايا SDK
 تأكد من STServo يتم تركيب SDK بشكل صحيح:
-1. تحميل من: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. استخراج ملف ZIP المنزول ونسخ `STservo_sdk` المجلد (مع المجلد نفسه) إلى `software/python/` الإداري
+1. قم بتسجيلها [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. نسخة `STservo_sdk` المجلد (مع المجلد نفسه) إلى `software/python/` الإداري
 
 <a id="creating-your-own-examples"></a>
 ## إنشاء مثالاتك الخاصة

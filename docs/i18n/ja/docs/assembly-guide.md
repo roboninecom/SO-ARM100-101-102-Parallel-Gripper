@@ -47,10 +47,10 @@
 ![セルボ定位](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **必要な構成要素:**
-- 1x シリアルバスセルボボードとケーブル
+- 現存する SO-ARM100/101 コントローラー,セルボケーブル,腕電源
 
 **Windows ユーザの指示:**
-1. Servo を Serial Bus Servo Board に接続し,Board を USB で PC に接続する
+1. セルボバスを介して,既存の腕制御器に接続し,USBでコントローラをPCに接続する. 腕の電源を使う チェーンにグリッパーを追加する前にユニークなセルボIDを設定し,COMポートを開く前に他のロボット制御アプリケーションを閉じる.
 2. Servo を設定する Feetech's **FD** (SCServo デバッグツール 封鎖ソースです
    Windows のソフトウェア Feetech そして **はい** このリポジトリに再配布された:
    - 公式ダウンロード: <https://www.feetechrc.com/software.html> ⁇ FDを探して

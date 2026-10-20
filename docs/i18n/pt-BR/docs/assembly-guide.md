@@ -47,10 +47,10 @@ Este guia fornece instruções passo-a-passo para a montagem do agarrador parale
 ![Posicionamento por servo](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Componentes necessários:**
-- 1x Servo de ônibus em série e cabos
+- Existência SO-ARM100/101 controlador, cabo servo e alimentação do braço
 
 **Instruções para usuários do Windows:**
-1. Conecte o Servo ao Serial Bus Servo Board, conecte a placa ao PC por USB.
+1. Conectar o servo ao controlador de braço existente através do servo-bus e conectar o controlador ao PC por USB. Usa a fonte de alimentação do braço. Configurar uma identificação servo única antes de adicionar o agarrador à cadeia; fechar outras aplicações de controlo robótico antes de abrir a porta COM.
 2. Configurar o servo com Feetech's **FD** (SCServo Ferramenta de depuração. É de código fechado .
    Software Windows de Feetech e é **Não** redistribuídos neste repositório:
    - Download oficial: <https://www.feetechrc.com/software.html> ⁇  procurar o FD /

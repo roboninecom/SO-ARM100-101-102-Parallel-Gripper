@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## विन्यास
 
+मौजूदा के माध्यम से पकड़ कनेक्ट करें SO-ARM100/101 सर्वो बस और नियंत्रक।
+नियंत्रक का उपयोग करें यूएसबी सीरियल पोर्ट, सेट `STS_ID` पकाने वाले इमदादी आईडी (आमतौर पर 6 पर) SO-ARM101),
+और उस बंदरगाह का उपयोग करके अन्य अनुप्रयोगों को बंद करें।
+
 उदाहरण चलाने से पहले, आपको कॉन्फ़िगरेशन पैरामीटर समायोजित करने की आवश्यकता हो सकती हैः
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo एसडीके मुद्दे
 सुनिश्चित करें कि STServo SDK ठीक से स्थापित हैः
-1. डाउनलोड करेंः [STServo Python एसडीके](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. डाउनलोड की गई ज़िप फ़ाइल निकालें और कॉपी करें `STservo_sdk` फ़ोल्डर (फ़ोल्डर के साथ) को `software/python/` निर्देशिका
+1. क्लोन [Feetech STServo Python एसडीके](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. प्रतिलिपि `STservo_sdk` फ़ोल्डर (फ़ोल्डर के साथ) को `software/python/` निर्देशिका।
 
 <a id="creating-your-own-examples"></a>
 ## अपना खुद का उदाहरण बनाएं

@@ -25,7 +25,7 @@ Lightweight 3D-printed end-effector designed by **Robonine** for the open-source
 ## Key Features
 
 - Open-source design
-- BOM cost for one gripper: ~$62
+- BOM cost for one gripper: ~$50
 - Can be printed during one cycle on a consumer-grade FDM 3D printer
 - Compatible with popular video cameras:
   - Orbbec Gemini 2

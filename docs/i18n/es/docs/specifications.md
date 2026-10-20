@@ -25,7 +25,7 @@ Efector final de impresión 3D ligero diseñado por: **Robonine** para la plataf
 ## Características clave
 
 - Diseño de código abierto
-- Costo BOM por un sujetador: ~ $62
+- Costo BOM por un sujetador: ~ $50
 - Puede imprimirse durante un ciclo en una impresora 3D FDM de grado consumidor
 - Compatible con las cámaras de vídeo populares:
   - Orbbec Géminis 2

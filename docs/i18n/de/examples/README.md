@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## Konfiguration
 
+Verbinden Sie den Griff durch die bestehende SO-ARM100/101 Servobus und Steuerung.
+Verwenden Sie den USB-Serieport des Controllers, eingestellt `STS_ID` an der Gripperservo-ID (typischerweise 6 SO-ARM101),
+und schließen andere Anwendungen mit diesem Port.
+
 Bevor Sie Beispiele ausführen, müssen Sie möglicherweise die Konfigurationsparameter anpassen:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo SDK-Fragen
 Stellen Sie sicher, dass STServo SDK ist ordnungsgemäß installiert:
-1. Download von: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. Extrahieren Sie die heruntergeladenen ZIP-Dateien und kopieren Sie `STservo_sdk` Folder (mit dem Ordner selbst) `software/python/` Verzeichnis
+1. Klonen der [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. Kopieren Sie `STservo_sdk` Folder (mit dem Ordner selbst) `software/python/` Verzeichnis.
 
 <a id="creating-your-own-examples"></a>
 ## Erstellen Sie eigene Beispiele

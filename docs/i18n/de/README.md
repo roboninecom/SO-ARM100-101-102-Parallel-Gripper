@@ -16,14 +16,16 @@
 
 [![SO-ARM101 Parallelgreifer](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [Pass auf den Griff in Aktion auf!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [Pass auf den Griff in Aktion auf!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Kaufen Sie die SO-ARM102 Ausrüstung mit einem parallelen Griff](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 Eine leichte 3D-gedruckte Parallelgriffer, konstruiert von **[Robonine](https://robonine.com)** für die Open-Source SO-ARM100/101 Roboterplattform.
+
+> Sie bevorzugen ein komplettes Roboterarm-Kit mit einem parallelen Griff? **[Kaufen Sie die SO-ARM102 Ausrüstung](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![Das ist alles . CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![Kosten:$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![Kosten:$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![Versammlung: 30 Minuten](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@ Eine leichte 3D-gedruckte Parallelgriffer, konstruiert von **[Robonine](https://
 | **0.5mm Wiederholbarkeit** | Hochpräzise Positionierung |
 | **Kamera kompatibel** | Unterstützungen RealSense, Orbbec, USB-Kameras |
 | **3D-Druckbar** | Alle Teile werden auf Standard-FDM-Drucker gedruckt |
-| **~$62Gesamtkosten** | Erschwingliche Open-Source-Lösung |
+| **~$50Gesamtkosten** | Erschwingliche Open-Source-Lösung |
 | **Einfache Versammlung** | 30-45 Minuten mit Grundwerkzeugen |
 
 ---
@@ -139,11 +141,11 @@ Der Gripper unterstützt mehrere Kameras über den austauschbaren Kamerahalter:
 <a id="-bill-of-materials"></a>
 ## ⁇  Vorlage der Materialien
 
-**Gesamtkosten: ~ $62** ([Vollständige BOM mit Amazon-Links](docs/bom.md))
+**Gesamtkosten:$50** ([Vollständige BOM mit Amazon-Links](docs/bom.md))
 
 | Kategorie | Komponenten | Ist. Kosten |
 |----------|------------|-----------|
-| Elektronik | Feetech STS3215 Servo + Servo Bus Adapter | ~$40 |
+| Elektronik | Feetech STS3215 Servo | ~$29 |
 | Lager | MF106ZZ (x2) | ~$2 |
 | Aluminium/Kohlenstoffröhren | D6x1x125mm (x2) | ~$4 |
 | 3D-Druck | 8 Teile (~100-150 g PLA) | ~$12 |
@@ -153,6 +155,8 @@ Der Gripper unterstützt mehrere Kameras über den austauschbaren Kamerahalter:
 
 <a id="-quick-start"></a>
 ## ⁇  Schnell anfangen
+
+Für ein komplettes Roboterarm-Kit mit einem parallelen Griff **[Kaufen Sie die SO-ARM102 Ausrüstung](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. Um die SO-ARM100/101 Sie müssen sich selbst festhalten und den folgenden Schritten folgen.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. Die Teile ausdrucken (2-4 Stunden)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### Elektronik
 - 1× Feetech STS3215 Servomotor
-- 1× Busservo-Adapter (Waveshare)
+
+Verbinden Sie den Griff mit dem vorhandenen SO-ARM100/101 Servobus und Steuerung.
+Der Robotercontroller und die Stromversorgung sind Teil der Arm-Einstellung, außerhalb des Gripper BOM.
 
 <a id="mechanical"></a>
 ### Mechanische Maschinen
@@ -384,7 +390,6 @@ unter diesen Bedingungen verfügbar  ⁇  siehe [`RELICENSING.md`](RELICENSING.m
 ## ⁇  Links
 
 - [Feetech STS3215 Servo](https://www.feetechrc.com/525603.html)
-- [Waveshare Busservo-Adapter](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

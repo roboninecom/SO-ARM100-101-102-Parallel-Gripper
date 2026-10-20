@@ -16,14 +16,16 @@
 
 [![SO-ARM101 Параллельный захват](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [Посмотрите, как работает захват!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [Посмотрите, как работает захват!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Купить SO-ARM102 комплект с параллельным прицепником](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 Лёгкий параллельный захват для 3D-печати, разработанный **[Robonine](https://robonine.com)** для open-source SO-ARM100/101 робототехническая платформа.
+
+> Вы предпочитаете полный комплект роботизированных рук с параллельным прицепником? **[Купить SO-ARM102 комплект](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![Оборудование: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![Программное обеспечение Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![Документы: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![Стоимость: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![Стоимость: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![Сборка: 30 минут](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@
 | **0.5mm Повторяемость** | Высокая точность позиционирования |
 | **Камера совместима** | Поддержка RealSense, Orbbec, камеры USB |
 | **3D-печать** | Все части печатаются на стандартных принтерах FDM |
-| **~ $62 Общая стоимость** | Доступное решение с открытым исходным кодом |
+| **~$50Общая стоимость** | Доступное решение с открытым исходным кодом |
 | **Легкая сборка** | 30-45 минут с основными инструментами |
 
 ---
@@ -139,11 +141,11 @@
 <a id="-bill-of-materials"></a>
 ## ⁇  Документ о материалах
 
-**Общая стоимость: ~ $62** ([Полный BOM с Amazon ссылки](docs/bom.md))
+**Общая стоимость: ~ $50** ([Полный BOM с Amazon ссылки](docs/bom.md))
 
 | Категория | Компоненты | Восточная. Стоимость |
 |----------|------------|-----------|
-| Электроника | Feetech STS3215 Серво + серво-автобусный адаптер | ~$40 |
+| Электроника | Feetech STS3215 Серво | ~$29 |
 | Подшипники | MF106ZZ (x2) | ~$2 |
 | Алюминиевые/углеродные трубы | D6x1x125 мм (x2) | ~$4 |
 | 3D-печать | 8 частей (~100-150 г PLA) | ~$12 |
@@ -153,6 +155,8 @@
 
 <a id="-quick-start"></a>
 ## ⁇  Быстрый старт
+
+Для полного комплекта роботизированных рук с параллельным прицепником, **[купите SO-ARM102 комплект](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. Чтобы построить SO-ARM100/101 Держитесь, следуйте ниже.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. Печать части (2-4 часа)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### Электроника
 - 1× Feetech STS3215 Сервомотор
-- 1× Автобусная сервоадаптерная панель (Waveshare)
+
+Подключите захват к имеющимся у SO-ARM100/101 сервошине и контроллеру.
+Контроллер и блок питания входят в состав манипулятора и не включены в BOM захвата.
 
 <a id="mechanical"></a>
 ### Механические
@@ -384,7 +390,6 @@ docker compose run gazebo    # or mujoco, webots
 ## ⁇  Ссылки
 
 - [Feetech STS3215 Серво](https://www.feetechrc.com/525603.html)
-- [Waveshare Автобусный сервоадаптер](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

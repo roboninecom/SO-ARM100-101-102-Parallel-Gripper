@@ -16,14 +16,16 @@
 
 [![SO-ARM101 Pinza paralela](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [¡Cuidado con el agarre en acción!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [¡Cuidado con el agarre en acción!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Comprar el SO-ARM102 equipo con un agarre paralelo](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 Un agarrador paralelo ligero impreso en 3D diseñado por: **[Robonine](https://robonine.com)** para el código abierto SO-ARM100/101 plataforma robótica.
+
+> ¿Prefieres un equipo completo de brazos robóticos con una agarre paralela? **[Comprar el SO-ARM102 el kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![Documents: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![Costo: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![Costo: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![Encuentro: 30 minutos](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@ Un agarrador paralelo ligero impreso en 3D diseñado por: **[Robonine](https://r
 | **0.5mm Repetibilidad** | Posicionamiento de alta precisión |
 | **Compatible con la cámara** | Los apoyos RealSense, Orbbec, cámaras USB |
 | **Imprimible en 3D** | Impresión de todas las piezas en impresoras FDM estándar |
-| **~$62Costos totales** | Solución de código abierto asequible |
+| **~$50Costos totales** | Solución de código abierto asequible |
 | **Asamblea fácil** | 30-45 minutos con herramientas básicas |
 
 ---
@@ -139,11 +141,11 @@ El sujetador soporta múltiples cámaras a través de un portafoto intercambiabl
 <a id="-bill-of-materials"></a>
 ## ⁇  Presentación de los materiales
 
-**Costo total: ~ $62** ([BOM completo con enlaces de Amazon](docs/bom.md))
+**Costo total: ~$50** ([BOM completo con enlaces de Amazon](docs/bom.md))
 
 | Categoría | Componentes | ¿Qué es esto? El coste |
 |----------|------------|-----------|
-| Electrónica | Feetech STS3215 Adaptador de autobús servo + servo | ~$40 |
+| Electrónica | Feetech STS3215 Servicios | ~$29 |
 | Rodamientos | MF106ZZ (x2) | ~$2 |
 | Tubos de aluminio/carbono | D6x1x125mm (x2) | ~$4 |
 | Impresión en 3D | 8 piezas (~ 100-150 g PLA) | ~$12 |
@@ -153,6 +155,8 @@ El sujetador soporta múltiples cámaras a través de un portafoto intercambiabl
 
 <a id="-quick-start"></a>
 ## ⁇  Comienza rápido
+
+Para un conjunto completo de brazo robótico con un agarre paralelo, **[comprar el SO-ARM102 el kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. Para construir el SO-ARM100/101 agarre a ti mismo, siga los pasos de abajo.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. Impresión de las piezas (2-4 horas)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### Electrónica
 - 1× Feetech STS3215 Motor de servicio
-- 1× Cuadro de bus servo adaptadorWaveshare)
+
+Conectar el agarre al existente SO-ARM100/101 Servo bus y controlador.
+El controlador robótico y la fuente de alimentación forman parte de la configuración del brazo, fuera del BOM del agarre.
 
 <a id="mechanical"></a>
 ### Mecánico
@@ -384,7 +390,6 @@ disponible bajo dichos términos  ⁇  ver [`RELICENSING.md`](RELICENSING.md).
 ## ⁇  Enlaces
 
 - [Feetech STS3215 Servicios](https://www.feetechrc.com/525603.html)
-- [Waveshare Adaptador de autobús](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

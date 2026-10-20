@@ -32,7 +32,7 @@ Prends ton Gripper pour le suiveur SO-ARM101 Levez-vous et courez !
 ### Logiciel
 - [ ] Python 3.6+ installé
 - [ ] STServo SDK téléchargé
-- [ ] Interface de communication en série
+- [ ] Les produits existants SO-ARM100/101 contrôleur, connexion USB et alimentation au bras
 
 ---
 
@@ -70,18 +70,17 @@ Pour vous assurer que les barres que vous achetez s'intégrent mieux dans les pi
 <a id="step-2-gather-components-1-2-days-shipping"></a>
 ## Pas de départ2: Rassemblement des composants (1-2jour de livraison
 
-Les pièces de commande [Résumé des matières](bom.md):
+Les pièces de commande [Résumé des matières](bom.md). Réutiliser le contrôleur de bras et l'alimentation; ceux-ci sont en dehors du coût de la prise:
 
 | Components | Qty | Est. Coût |
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
-| Panneau d'adaptateur de bus servo | 1 | ~$11 |
 | MF106ZZ les roulements (10x6x3 mm) | 2 | ~$2 |
 | Tubes d'aluminium/carbone D6x1x125mm | 2 | ~$4 |
 | Impression 3D PLA| 8 pièces | ~$12 |
 | Appareils de fixation (croûtes/noix M2/M4) | divers | ~$3 |
 
-**Coût total estimé: ~$62**
+**Coût total estimé: ~$50**
 
 ---
 
@@ -132,9 +131,11 @@ Suivez les détails [Guide d'assemblage](assembly-guide.md):
 ## Étape 5: Première épreuve (5 minutes)
 
 1. **Connectez le matériel**
-   - Servo → adaptateur de bus
-   - Adapteur de bus → ordinateur (USB)
-   - L'alimentation électrique (6-12V, min 3A)
+   - Servo à grippe → servo n°5 sur le SO-ARM101 bus de service
+   - Contrôleur de bras existant → ordinateur (USB)
+   - Utilisez l'alimentation du bras configurée pour les servos installés
+   - Réglez l' identification servo de la prise à correspondre `STS_ID` et le garder unique dans l'autobus
+   - Fermez d'autres applications de contrôle robot avant d'ouvrir le port série
 
 2. **Exécuter un test de base**
    ```bash

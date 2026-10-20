@@ -23,6 +23,10 @@ python basic_usage.py
 
 ## Configuration
 
+Connect the gripper through the existing SO-ARM100/101 servo bus and controller.
+Use the controller USB serial port, set `STS_ID` to the gripper servo ID (typically 6 on SO-ARM101),
+and close other applications using that port.
+
 Before running examples, you may need to adjust configuration parameters:
 
 ```python
@@ -50,8 +54,8 @@ sudo usermod -a -G dialout $USER
 
 ### STServo SDK Issues
 Make sure the STServo SDK is properly installed:
-1. Download from: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. Extract the downloaded ZIP file and copy the `STservo_sdk` folder (with the folder itself) to `software/python/` directory
+1. Clone the [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. Copy the `STservo_sdk` folder (with the folder itself) to `software/python/` directory.
 
 ## Creating Your Own Examples
 

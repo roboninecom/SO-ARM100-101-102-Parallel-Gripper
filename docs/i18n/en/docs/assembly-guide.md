@@ -47,10 +47,10 @@ This guide provides step-by-step instructions for assembling the parallel grippe
 ![Servo positioning](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Components needed:**
-- 1x Serial Bus Servo Board and Cables
+- Existing SO-ARM100/101 controller, servo cable, and arm power supply
 
 **Instructions for Windows users:**
-1. Connect Servo to Serial Bus Servo Board, connect Board to PC by USB.
+1. Connect the servo to the existing arm controller through the servo bus and connect the controller to the PC by USB. Use the arm power supply. Configure a unique servo ID before adding the gripper to the chain; close other robot-control applications before opening the COM port.
 2. Configure the servo with Feetech's **FD** (SCServo Debug) tool. It is closed-source
    Windows software from Feetech and is **not** redistributed in this repository:
    - Official download: <https://www.feetechrc.com/software.html> — look for the FD /

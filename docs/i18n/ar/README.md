@@ -16,14 +16,16 @@
 
 [![SO-ARM101 قابض متوازٍ](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [راقبوا المقبض في العمل!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [راقبوا المقبض في العمل!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [إشتري SO-ARM102 المجموعة مع قبضة متوازية](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 ضغط متوازي خفيف المطبوع 3D مصمم من قبل: **[Robonine](https://robonine.com)** للمصدر المفتوح SO-ARM100/101 منصة روبوتية
+
+> هل تفضل مجموعة كاملة من الذراعين الروبوتية مع قبضة متوازية؟ **[إشتري SO-ARM102 المجموعة](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![الأجهزة: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![البرمجيات: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![الأدلة: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![التكلفة:$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![التكلفة:$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![التجميع: 30 دقيقة](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@
 | **0.5mm تكرارية** | تحديد المواقع بدقة عالية |
 | **آلة التصوير متوافقة** | الدعم RealSense, Orbbec، كاميرات USB |
 | **3D قابل للطباعة** | جميع الأجزاء الطباعة على طابعات FDM القياسية |
-| **~$62التكلفة الإجمالية** | حل مفتوح المصدر بأسعار معقولة |
+| **~$50التكلفة الإجمالية** | حل مفتوح المصدر بأسعار معقولة |
 | **التجميع السهل** | 30-45 دقيقة مع الأدوات الأساسية |
 
 ---
@@ -139,11 +141,11 @@
 <a id="-bill-of-materials"></a>
 ## ⁇  مخطط المواد
 
-**التكلفة الإجمالية$62** ([BOM كاملة مع روابط أمازون](docs/bom.md))
+**التكلفة الإجمالية$50** ([BOM كاملة مع روابط أمازون](docs/bom.md))
 
 | الفئة | المكونات | -إست التكلفة |
 |----------|------------|-----------|
-| الإلكترونيات | Feetech STS3215 مُعدّل الحافلة الخادم + الخادم | ~$40 |
+| الإلكترونيات | Feetech STS3215 الخدمة | ~$29 |
 | محامل | MF106ZZ (x2) | ~$2 |
 | الألومنيوم/كربون | D6x1x125mm (x2) | ~$4 |
 | 3D الطباعة | 8 أجزاء (~100-150 غرام من PLA) | ~$12 |
@@ -153,6 +155,8 @@
 
 <a id="-quick-start"></a>
 ## ⁇  بدء سريع
+
+لجهاز ذراع روبوت كامل مع قبضة متوازية، **[شراء SO-ARM102 المجموعة](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. لبناء SO-ARM100/101 تمسك نفسك، اتبع الخطوات أدناه.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. طباعة الأجزاء (2-4 ساعات)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### الإلكترونيات
 - 1× Feetech STS3215 محرك الخدمة
-- 1× لوحة تعديل الحافلة (Waveshare)
+
+ربط المقبض على الجهاز الموجود SO-ARM100/101 حافلة الخدمة والتحكم
+جهاز التحكم الروبوتي وتزويد الطاقة جزء من إعداد الذراع، خارج المقبض BOM.
 
 <a id="mechanical"></a>
 ### الميكانيكية
@@ -384,7 +390,6 @@ docker compose run gazebo    # or mujoco, webots
 ## ⁇  الروابط
 
 - [Feetech STS3215 الخدمة](https://www.feetechrc.com/525603.html)
-- [Waveshare مُعدّل خدمة الحافلة](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

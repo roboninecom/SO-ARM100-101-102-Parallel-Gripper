@@ -47,10 +47,10 @@ Ce manuel fournit des instructions étape par étape pour assembler la poignée 
 ![Positionnement en servo](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Components nécessaires:**
-- 1x Plate et câbles de servo-bus en série
+- Les produits existants SO-ARM100/101 contrôleur, câble servo et alimentation par bras
 
 **Instructions pour les utilisateurs de Windows:**
-1. Connectez Servo à la carte serveuse de bus série, connectez la carte au PC par USB.
+1. Connectez le servo au contrôleur de bras existant par l'intermédiaire du serveur-bus et connectez le contrôleur au PC via USB. Utilisez l'alimentation du bras. Configurer une identification servo unique avant d'ajouter la prise à la chaîne; fermer les autres applications de contrôle robot avant d'ouvrir le port COM.
 2. Configurer le servo avec Feetech's **FD** (SCServo outil de débogage. C' est à source fermée
    Le logiciel Windows de Feetech et est **pas** redistribué dans ce référentiel:
    - Téléchargement officiel: <https://www.feetechrc.com/software.html> ⁇  chercher le FD /

@@ -47,10 +47,10 @@ Esta guía proporciona instrucciones paso a paso para montar el agarre paralelo.
 ![Posicionamiento por servo](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Componentes necesarios:**
-- 1x Tabla y cables de bus servo en serie
+- Las actuales SO-ARM100/101 controlador, cable servo y fuente de alimentación del brazo
 
 **Instrucciones para los usuarios de Windows:**
-1. Conecta Servo a la Junta de Servicios de Autobús Serial, conecta la Junta a PC por USB.
+1. Conecte el servo al control de brazo existente a través del bus servo y conecte el controlador al PC por USB. Usa la fuente de alimentación del brazo. Configurar un ID servo único antes de añadir el agarre a la cadena; cerrar otras aplicaciones de control robótico antes de abrir el puerto COM.
 2. Configurar el servo con Feetech's **FD** (SCServo Desarrollo) herramienta. Es de fuente cerrada
    El software de Windows desde Feetech y es **No** redistribuidos en este repositorio:
    - Descarga oficial: <https://www.feetechrc.com/software.html> ⁇  Buscar el FD /

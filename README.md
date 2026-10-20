@@ -17,7 +17,7 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 [![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](HARDWARE-LICENSE.txt)
 [![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](SOFTWARE-LICENSE.txt)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](DOCS-LICENSE.txt)
-[![Cost: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![Cost: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![Assembly: 30min](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -39,7 +39,7 @@ A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robon
 | **0.5mm Repeatability** | High precision positioning |
 | **Camera Compatible** | Supports RealSense, Orbbec, USB cameras |
 | **3D Printable** | All parts print on standard FDM printers |
-| **~$62 Total Cost** | Affordable open-source solution |
+| **~$50 Total Cost** | Affordable open-source solution |
 | **Easy Assembly** | 30-45 minutes with basic tools |
 
 ---
@@ -123,11 +123,11 @@ The gripper supports multiple cameras via interchangeable camera holder:
 
 ## 💰 Bill of Materials
 
-**Total Cost: ~$62** ([Full BOM with Amazon links](docs/bom.md))
+**Total Cost: ~$50** ([Full BOM with Amazon links](docs/bom.md))
 
 | Category | Components | Est. Cost |
 |----------|------------|-----------|
-| Electronics | Feetech STS3215 Servo + Servo Bus Adapter | ~$40 |
+| Electronics | Feetech STS3215 Servo | ~$29 |
 | Bearings | MF106ZZ (x2) | ~$2 |
 | Aluminium/Carbon Tubes | D6x1×125mm (x2) | ~$4 |
 | 3D Printing | 8 parts (~100-150g PLA) | ~$12 |
@@ -248,7 +248,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 
 ### Electronics
 - 1× Feetech STS3215 Servo Motor
-- 1× Bus Servo Adapter Board (Waveshare)
+
+Connect the gripper to the existing SO-ARM100/101 servo bus and controller.
+The robot controller and power supply are part of the arm setup, outside the gripper BOM.
 
 ### Mechanical
 - 2× MF106ZZ Bearings (6×10×3 mm)
@@ -353,7 +355,6 @@ available under those terms — see [`RELICENSING.md`](RELICENSING.md).
 ## 🔗 Links
 
 - [Feetech STS3215 Servo](https://www.feetechrc.com/525603.html)
-- [Waveshare Bus Servo Adapter](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

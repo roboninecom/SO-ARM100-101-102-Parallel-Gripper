@@ -25,7 +25,7 @@ Efector final de impressão 3D leve, concebido por: **Robonine** para a platafor
 ## Características fundamentais
 
 - Desenho de código aberto
-- Custo BOM por um agarrador: ~ $62
+- Custo BOM por um agarrador: ~ $50
 - Pode ser impressa durante um ciclo em uma impressora 3D FDM de nível consumidor
 - Compatível com câmeras de vídeo populares:
   - Orbbec Gémeos 2

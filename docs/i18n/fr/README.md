@@ -16,14 +16,16 @@
 
 [![SO-ARM101 Pince parallèle](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [Attention à la prise en action !](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [Attention à la prise en action !](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Achetez le SO-ARM102 un kit avec une prise parallèle](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 Une prise parallèle légère imprimée en 3D conçue par: **[Robonine](https://robonine.com)** pour le code open source SO-ARM100/101 une plateforme robotique.
+
+> Vous préférez un kit de bras robot complet avec une prise parallèle ? **[Achetez le SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![Le matériel: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![Logiciel: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![Documents: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![Coût: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![Coût: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![Assemblage: 30 minutes](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@ Une prise parallèle légère imprimée en 3D conçue par: **[Robonine](https://
 | **0.5mm Répétabilité** | Positionnement de haute précision |
 | **Compatible avec la caméra** | Apports RealSense, Orbbec, caméras USB |
 | **Imprimable en 3D** | Toutes les pièces imprimées sur des imprimantes FDM standard |
-| **~$62Coût total** | Une solution open source abordable |
+| **~$50Coût total** | Une solution open source abordable |
 | **Assemblage facile** | 30-45minutes avec des outils de base |
 
 ---
@@ -139,11 +141,11 @@ La prise prend en charge plusieurs caméras via le support de la caméra interch
 <a id="-bill-of-materials"></a>
 ## ⁇  Résumé des matériaux
 
-**Coût total: ~$62** ([BOM complet avec des liens Amazon](docs/bom.md))
+**Coût total: ~$50** ([BOM complet avec des liens Amazon](docs/bom.md))
 
 | Catégorie | Components | Est. Coût |
 |----------|------------|-----------|
-| Électronique | Feetech STS3215 Adapteur Servo + Servo Bus | ~$40 |
+| Électronique | Feetech STS3215 Servo | ~$29 |
 | Roulements | MF106ZZ (x2) | ~$2 |
 | Tubes d'aluminium et de carbone | D6x1x125mm (x2) | ~$4 |
 | Impression en 3D | 8pièces (~100-150g PLA) | ~$12 |
@@ -153,6 +155,8 @@ La prise prend en charge plusieurs caméras via le support de la caméra interch
 
 <a id="-quick-start"></a>
 ## ⁇  Début rapide
+
+Pour un kit de bras robot complet avec une prise parallèle, **[acheter le SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. Pour construire le SO-ARM100/101 Prenez-vous, suivez les étapes ci-dessous.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. Impression des pièces (2-4 heures)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### Électronique
 - 1× Feetech STS3215 Moteur de servo
-- 1× Tableau d'adaptateur de bus (Waveshare)
+
+Connectez la poignée à l' existing SO-ARM100/101 le serveur et le contrôleur.
+Le contrôleur robot et l'alimentation font partie de la configuration du bras, en dehors du BOM de la prise.
 
 <a id="mechanical"></a>
 ### Mecanique
@@ -384,7 +390,6 @@ disponible en vertu de ces conditions  ⁇  voir [`RELICENSING.md`](RELICENSING.
 ## ⁇  Liens
 
 - [Feetech STS3215 Servo](https://www.feetechrc.com/525603.html)
-- [Waveshare Adapteur de bus](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

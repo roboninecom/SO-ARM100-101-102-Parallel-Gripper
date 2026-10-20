@@ -21,7 +21,7 @@ Get your Follower Gripper for SO-ARM101 up and running!
 ### Software
 - [ ] Python 3.6+ installed
 - [ ] STServo SDK downloaded
-- [ ] Serial communication interface
+- [ ] Existing SO-ARM100/101 controller, USB connection, and arm power supply
 
 ---
 
@@ -57,18 +57,17 @@ To ensure the rods you purchase fit better into the clamps, you need to use a te
 
 ## Step 2: Gather Components (1-2 days shipping)
 
-Order parts from the [Bill of Materials](bom.md):
+Order parts from the [Bill of Materials](bom.md). Reuse the arm controller and power supply; these are outside the gripper cost:
 
 | Component | Qty | Est. Cost |
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
-| Bus Servo Adapter Board | 1 | ~$11 |
 | MF106ZZ bearings (10x6x3mm) | 2 | ~$2 |
 | Aluminium/carbon tubes D6x1x125mm | 2 | ~$4 |
 | 3d printing PLA| 8 parts | ~$12 |
 | Fasteners (M2/M4 screws/nuts) | various | ~$3 |
 
-**Total estimated cost: ~$62**
+**Total estimated cost: ~$50**
 
 ---
 
@@ -116,9 +115,11 @@ Follow the detailed [Assembly Guide](assembly-guide.md):
 ## Step 5: First Test (5 minutes)
 
 1. **Connect hardware**
-   - Servo → Bus Servo Adapter
-   - Bus Adapter → Computer (USB)
-   - Power supply (6-12V, min 3A)
+   - Gripper servo → servo №5 on the SO-ARM101 servo bus
+   - Existing arm controller → Computer (USB)
+   - Use the arm power supply configured for the installed servos
+   - Set the gripper servo ID to match `STS_ID` and keep it unique on the bus
+   - Close other robot-control applications before opening the serial port
 
 2. **Run basic test**
    ```bash

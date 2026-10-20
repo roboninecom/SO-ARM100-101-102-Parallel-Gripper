@@ -32,7 +32,7 @@ Holen Sie Ihren Follower Gripper für SO-ARM101 Auf und laufen!
 ### Software
 - [ ] Python 3.6+ installiert
 - [ ] STServo SDK heruntergeladen
-- [ ] Serienkommunikationsschnittstelle
+- [ ] Bestehende SO-ARM100/101 Steuerung, USB-Verbindung und Armstromversorgung
 
 ---
 
@@ -70,18 +70,17 @@ Um sicherzustellen, daß die Stangen, die Sie kaufen, besser in die Klemmen pass
 <a id="step-2-gather-components-1-2-days-shipping"></a>
 ## Schritt 2: Sammeln von Komponenten (1-2 Tage Versand)
 
-Bestellte Teile von der [Vorlage der Materialien](bom.md):
+Bestellte Teile von der [Vorlage der Materialien](bom.md). Wiederverwendung des Armcontrollers und der Stromversorgung; diese sind außerhalb der Gripperkosten:
 
 | Komponente | Qty | Ist. Kosten |
 |-----------|:---:|-----------|
 | Feetech STS3215 Servo | 1 | ~$29 |
-| Busservo-Adapterbrett | 1 | ~$11 |
 | MF106ZZ Lager (10x6x3 mm) | 2 | ~$2 |
 | Aluminium/Kohlenstoffröhren D6x1x125mm | 2 | ~$4 |
 | 3D-Druck PLA| 8 Teile | ~$12 |
 | Fastener (M2/M4-Schrauben/Nüsse) | verschiedene | ~$3 |
 
-**Gesamtgeschätzte Kosten: ~$62**
+**Gesamtgeschätzte Kosten: ~$50**
 
 ---
 
@@ -132,9 +131,11 @@ Folgen Sie den detaillierten [Versammlungsführer](assembly-guide.md):
 ## Schritt 5: Erster Test (5 Minuten)
 
 1. **Verknüpfen von Hardware**
-   - Servo → Busservo-Adapter
-   - Busadapter → Computer (USB)
-   - Stromversorgung (6-12 V, min 3A)
+   - Gripperservo → Servo Nr. 5 auf der SO-ARM101 Servobus
+   - Bestehende Armcontroller → Computer (USB)
+   - Verwenden Sie die für die installierten Servos konfigurierte Armstromversorgung
+   - Setzen Sie die Gripperservo-ID auf `STS_ID` Und halten Sie es einzigartig im Bus.
+   - Schließen Sie andere Roboter-Steuerungsanwendungen vor Öffnung des seriellen Ports
 
 2. **Ausführen der Grundprüfung**
    ```bash

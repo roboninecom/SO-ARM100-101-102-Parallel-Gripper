@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## Configuration
 
+Connectez la poignée à l'aide de la prise existante SO-ARM100/101 le serveur et le contrôleur.
+Utilisez le port série USB du contrôleur, réglé `STS_ID` à l'identifiant servo de la prise (généralement 6 sur SO-ARM101),
+et fermer d'autres applications en utilisant ce port.
+
 Avant d'exécuter des exemples, vous devrez peut-être ajuster les paramètres de configuration:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo Problèmes liés au SDK
 Assurez-vous que le STServo SDK est correctement installé:
-1. Télécharger depuis: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. Extraire le fichier ZIP téléchargé et copier `STservo_sdk` le dossier (avec le dossier lui-même) à `software/python/` répertoire
+1. Le clonage [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. Copier le `STservo_sdk` le dossier (avec le dossier lui-même) à `software/python/` répertoire.
 
 <a id="creating-your-own-examples"></a>
 ## Créer ses propres exemples

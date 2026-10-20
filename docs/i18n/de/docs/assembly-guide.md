@@ -47,10 +47,10 @@ In diesem Leitfaden sind Schritt für Schritt Anweisungen zur Montage des parall
 ![Servo-Positionierung](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **Benötigte Komponenten:**
-- 1x Serienbus-Servo-Board und Kabel
+- Bestehende SO-ARM100/101 Steuerung, Servokabel und Armstromversorgung
 
 **Anweisungen für Windows-Benutzer:**
-1. Verbinden Sie Servo mit Serial Bus Servo Board, verbinden Sie Board mit PC per USB.
+1. Verbinden Sie den Servo mit dem vorhandenen Armcontroller über den Servobuss und verbinden Sie den Controller mit dem PC per USB. Nutzen Sie die Armstromversorgung. Konfiguration einer einzigartigen Servo-ID vor Hinzufügung des Griffes zur Kette; Schließung anderer Robotersteuerungsanwendungen vor Öffnung des COM-Ports.
 2. Konfigurieren Sie den Servo mit Feetech's **FD** (SCServo Debug) Werkzeug. Es ist geschlossener Quell
    Windows-Software von Feetech und ist **nicht** in diesem Repositorium umverteilt:
    - Offizieller Download: <https://www.feetechrc.com/software.html> ⁇  Suchen Sie nach der FD /

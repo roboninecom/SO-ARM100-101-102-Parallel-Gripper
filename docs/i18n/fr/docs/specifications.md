@@ -25,7 +25,7 @@ Légèreté de l'effet final imprimé en 3D conçu par: **Robonine** pour la pla
 ## Caractéristiques clés
 
 - Conception open source
-- Coût BOM pour une prise: ~$62
+- Coût BOM pour une prise: ~$50
 - Peut être imprimé pendant un cycle sur une imprimante 3D FDM de qualité consommateur
 - Compatible avec les caméras vidéo populaires:
   - Orbbec Gémeaux 2

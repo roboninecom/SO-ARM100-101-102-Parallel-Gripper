@@ -32,7 +32,7 @@ Trae su Gripper de seguidores para SO-ARM101 ¡Vamos a correr!
 ### Software
 - [ ] Python 3.6 + instalado
 - [ ] STServo Descargado del SDK
-- [ ] Interfaz de comunicación en serie
+- [ ] Las actuales SO-ARM100/101 controlador, conexión USB y alimentación del brazo
 
 ---
 
@@ -70,18 +70,17 @@ Para asegurarse de que las varillas compradas encajan mejor en los pinzones, es 
 <a id="step-2-gather-components-1-2-days-shipping"></a>
 ## Paso 2: Recolectar los componentes (1-2 días de envío)
 
-Las piezas de pedido en el [Conjunto de materiales](bom.md):
+Las piezas de pedido en el [Conjunto de materiales](bom.md). Reutilizar el controlador de brazos y la fuente de alimentación; éstos están fuera del coste del agarre:
 
 | Componente | El número de | ¿Qué es esto? El coste |
 |-----------|:---:|-----------|
 | Feetech STS3215 servo | 1 | ~$29 |
-| Tabla de adaptación del bus servo | 1 | ~$11 |
 | MF106ZZ los rodamientos (10x6x3 mm) | 2 | ~$2 |
 | Tubos de aluminio/carbono D6x1x125mm | 2 | ~$4 |
 | Impresión 3D PLA| 8 partes | ~$12 |
 | Los elementos de sujeción (viscos/nudos M2/M4) | varios | ~$3 |
 
-**Costo total estimado: ~ $62**
+**Costo total estimado: ~ $50**
 
 ---
 
@@ -132,9 +131,11 @@ Sigue los detalles [Guía de la Asamblea](assembly-guide.md):
 ## Paso 5: Primera prueba (5 minutos)
 
 1. **Conecta el hardware**
-   - Servo → Adaptador de autobús
-   - Adaptador de autobús → ordenador (USB)
-   - Fuente de alimentación (6-12V, min 3A)
+   - Servo de pegamento → servo no 5 en el SO-ARM101 autobús de servicio
+   - Controlador de brazos → Computadora (USB) existente
+   - Utilice la fuente de alimentación del brazo configurada para los servidores instalados
+   - Ajuste la identificación de servo del agarre para que coincida `STS_ID` y mantenerlo único en el autobús
+   - Cierre otras aplicaciones de control robótico antes de abrir el puerto en serie
 
 2. **Realizar la prueba básica**
    ```bash

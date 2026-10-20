@@ -16,14 +16,16 @@
 
 [![SO-ARM101 平行夹爪](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [看着抓住器在行动!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [看着抓住器在行动!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [购买 SO-ARM102 有平行抓住器的套件](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 设计的轻量级3D打印平行抓住器 **[Robonine](https://robonine.com)** 对于开源 SO-ARM100/101 机器人平台.
+
+> 你更喜欢一套完整的机器人手臂套件? **[购买 SO-ARM102 套件](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![硬件: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![软件: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![文件: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![价格: ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![价格: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![组装时间:30分钟](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@
 | **0.5mm 可重复性** | 高精度定位 |
 | **相机兼容** | 支持 RealSense, Orbbec,USB摄像头 |
 | **3D打印式** | 所有零件均用标准FDM打印机打印 |
-| **~$62总成本** | 经济适用的开源解决方案 |
+| **~$50总成本** | 经济适用的开源解决方案 |
 | **容易组装** | 30-45分钟使用基本工具 |
 
 ---
@@ -139,11 +141,11 @@
 <a id="-bill-of-materials"></a>
 ## ⁇ 材料文件
 
-**总成本: ~$62** ([全BOM与亚马逊链接](docs/bom.md))
+**总成本: ~$50** ([全BOM与亚马逊链接](docs/bom.md))
 
 | 类别 | 组件 | 东部. 费用 |
 |----------|------------|-----------|
-| 电子 | Feetech STS3215 服务器+服务器巴士适配器 | ~$40 |
+| 电子 | Feetech STS3215 服务器 | ~$29 |
 | 轴承 | MF106ZZ (x2) | ~$2 |
 | ⁇ /碳管 | D6x1×125毫米 (x)2) | ~$4 |
 | 3D打印 | 8个部件 (~100-150g PLA) | ~$12 |
@@ -153,6 +155,8 @@
 
 <a id="-quick-start"></a>
 ## ⁇ 快速开始
+
+对于一套完整的机器人手臂套件, **[购买 SO-ARM102 套件](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. 为了建立 SO-ARM100/101 抓住自己,跟随下面的步骤.
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. 打印部件 (2-4小时)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### 电子
 - 1× Feetech STS3215 伺服电机
-- 1× 公共汽车伺服适配器板 (Waveshare)
+
+连接抓紧器到现有的 SO-ARM100/101 服务器和控制器.
+机器人控制器和电源是臂部设置的一部分,
 
 <a id="mechanical"></a>
 ### 机械
@@ -384,7 +390,6 @@ docker compose run gazebo    # or mujoco, webots
 ## ⁇ 链接
 
 - [Feetech STS3215 服务器](https://www.feetechrc.com/525603.html)
-- [Waveshare 公共汽车服务器适配器](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---

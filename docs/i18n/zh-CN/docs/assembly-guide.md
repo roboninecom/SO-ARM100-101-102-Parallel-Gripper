@@ -47,10 +47,10 @@
 ![伺服定位](../../../../assets/images/assembly/Feetech-Servo-Window.png)
 
 **需要的组件:**
-- 1x 连续公共汽车伺服板和电缆
+- 现有 SO-ARM100/101 控制器,伺服电缆和手臂电源
 
 **对于Windows用户的说明:**
-1. 连接Servo到序列巴士服务板,通过USB连接Board到PC.
+1. 通过伺服器巴士将伺服器连接到现有的手臂控制器,并通过USB将控制器连接到PC. 用手臂电源. 在将抓住器添加到链上之前,设置独特的伺服ID;在打开COM端口前关闭其他机器人控制应用.
 2. 设置服务器 Feetech's **FD** (SCServo 调试工具. 它是封闭源的
    在Windows软件中 Feetech 并且是 **没有** 在本存储库中重新分配:
    - 官方下载: <https://www.feetechrc.com/software.html> ⁇ 寻找FD

@@ -34,6 +34,10 @@ python basic_usage.py
 <a id="configuration"></a>
 ## 配置
 
+通过现有的接力器连接 SO-ARM100/101 服务器和控制器.
+使用控制器的USB串行端口,设置 `STS_ID` 按 ⁇ 器的伺服ID (通常是6 SO-ARM101),
+关闭使用该端口的其他应用程序.
+
 在运行示例之前,您可能需要调整配置参数:
 
 ```python
@@ -65,8 +69,8 @@ sudo usermod -a -G dialout $USER
 <a id="stservo-sdk-issues"></a>
 ### STServo SDK问题
 确保 STServo SDK 正确安装:
-1. 在: [STServo Python SDK](https://files.waveshare.com/wiki/Bus-Servo-Adapter-(A)/STServo_Python.zip)
-2. 提取下载的ZIP文件并复制 `STservo_sdk` 文件 ⁇  (包含文件 ⁇ 本身) `software/python/` 目录
+1. 克隆 [Feetech STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python).
+2. 复制 `STservo_sdk` 文件 ⁇  (包含文件 ⁇ 本身) `software/python/` 文件目录
 
 <a id="creating-your-own-examples"></a>
 ## 创造自己的榜样

@@ -12,13 +12,15 @@
 <a id="bill-of-materials-bom"></a>
 # Lista de materiais (BOM)
 
+O agarrador utiliza o SO-ARM100/101 Servobus, controlador e alimentação.
+Estes componentes do braço estão fora desta BOM de agarre.
+
 <a id="electronic-components"></a>
 ## Componentes electrónicos
 
 | Artigo | Descrição | Qty | Preço | Ligação |
 |---------|-------------|:---:|-------|------|
 | ST-3215-C018 | Feetech Servo motor | 1 | ~$29.00 | [Feetech](https://www.feetechrc.com/525603.html) |
-| | Tabela de adaptador de autocarro | 1 | ~$11.00 | [Waveshare](https://www.waveshare.com/bus-servo-adapter-a.htm) |
 
 <a id="bearings"></a>
 ## Rolamentos
@@ -77,24 +79,26 @@
 
 | Categoria | Itens | - Não. Custo |
 |----------|-------|-----------|
-| Eletrônica | Servo ST-3215 + Adaptador | ~$40.00 |
+| Eletrônica | Servo ST-3215 | ~$29.00 |
 | Rolamentos | MF106ZZ (2) | ~$2.00* |
-| Hastes-guia | D6x125 (2) | ~$1.00* |
+| Hastes-guia | D6x125 (2) | ~$4.00* |
 | Partes impressas em 3D | 8 partes | ~$12.00 |
 | Fixadores | Vários parafusos e nozes | ~$3.00* |
-| **Total** | | **~$62.00** |
+| **Total** | | **~$50.00** |
 
 <a id="full-pack-prices-with-extras"></a>
 ### Preços completos (com extras)
 
+Exemplo utilizando os tubos de alumínio 6x3x250 mm listados em embalagens duplas e completas:
+
 | Categoria | Preço de embalagem |
 |----------|------------|
-| Eletrônica | ~$40.00 |
-| Rolamentos | ~$2.00 |
-| Hastes-guia | ~$2.00 |
+| Eletrônica | ~$29.00 |
+| Rolamentos | ~$9.99 |
+| Hastes-guia | ~$5.79 |
 | Partes impressas em 3D | ~$12.00 |
-| Fixadores | ~$27.00 |
-| **Total** | **~$83.00** |
+| Fixadores | ~$26.76 |
+| **Total** | **~$83.54** |
 
 *\* Proporcionado a partir dos preços de embalagens em massa*
 

@@ -16,14 +16,16 @@
 
 [![SO-ARM101 समानांतर ग्रिपर](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
 
-**🎥 [पकड़ कार्रवाई में देखो!](https://youtube.com/shorts/bSyXjgNGXZk)**
+**🎥 [पकड़ कार्रवाई में देखो!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [खरीदें SO-ARM102 समानांतर पकड़ के साथ किट](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
 
 3D मुद्रित समानांतर पकड़ **[Robonine](https://robonine.com)** ओपन सोर्स के लिए SO-ARM100/101 रोबोटिक मंच।
+
+> समानांतर पकड़ के साथ एक पूर्ण रोबोट हाथ सेट पसंद करते हैं? **[खरीदें SO-ARM102 किट](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
 
 [![हार्डवेयरः CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
 [![सॉफ्टवेयरः Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
 [![दस्तावेज: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
-[![लागतः ~$70](https://img.shields.io/badge/Cost-~%2470-green.svg)](docs/bom.md)
+[![लागत: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
 [![असेंबलीः 30 मिनट](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
 
 ---
@@ -46,7 +48,7 @@
 | **0.5 मिमी पुनरावृत्ति** | उच्च परिशुद्धता वाली स्थिति |
 | **कैमरा संगत** | समर्थन RealSense, Orbbec, यूएसबी कैमरे |
 | **3 डी प्रिंट करने योग्य** | मानक एफडीएम प्रिंटर पर सभी भागों की छपाई |
-| **~ $62 कुल लागत** | सस्ती ओपन सोर्स समाधान |
+| **~$50कुल लागत** | सस्ती ओपन सोर्स समाधान |
 | **आसान इकट्ठा** | बुनियादी उपकरणों के साथ 30-45 मिनट |
 
 ---
@@ -139,11 +141,11 @@
 <a id="-bill-of-materials"></a>
 ## ⁇  सामग्री का बिल
 
-**कुल लागतः ~$62** ([अमेज़ॅन लिंक के साथ पूर्ण BOM](docs/bom.md))
+**कुल लागत: ~$50** ([अमेज़ॅन लिंक के साथ पूर्ण BOM](docs/bom.md))
 
 | श्रेणी | घटक | एस्ट. लागत |
 |----------|------------|-----------|
-| इलेक्ट्रॉनिक्स | Feetech STS3215 सर्वो + सर्वो बस एडाप्टर | ~$40 |
+| इलेक्ट्रॉनिक्स | Feetech STS3215 सेवा | ~$29 |
 | बेयरिंग | MF106ZZ (x2) | ~$2 |
 | एल्यूमीनियम/कार्बन ट्यूब | D6x1×125 मिमी (x2) | ~$4 |
 | 3 डी प्रिंटिंग | 8 भाग (~100-150 ग्राम पीएलए) | ~$12 |
@@ -153,6 +155,8 @@
 
 <a id="-quick-start"></a>
 ## ⁇  शीघ्र प्रारंभ
+
+समानांतर पकड़ के साथ एक पूर्ण रोबोट हाथ सेट के लिए, **[खरीदें SO-ARM102 किट](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. निर्माण के लिए SO-ARM100/101 अपने आप को पकड़ो, नीचे दिए गए चरणों का पालन करें।
 
 <a id="1-print-the-parts-2-4-hours"></a>
 ### 1. भागों को छापें (2-4 घंटे)
@@ -271,7 +275,9 @@ https://lab.robonine.com/tools/robonine/control-robot
 <a id="electronics"></a>
 ### इलेक्ट्रॉनिक्स
 - 1× Feetech STS3215 सर्वो मोटर
-- 1× बस सर्वो एडाप्टर बोर्ड (Waveshare)
+
+वर्तमान पर पकड़ कनेक्ट करें SO-ARM100/101 सर्वो बस और नियंत्रक।
+रोबोट कंट्रोलर और पावर सप्लाई ग्रिपर बीओएम के बाहर हाथ सेटअप का हिस्सा हैं।
 
 <a id="mechanical"></a>
 ### यांत्रिक
@@ -384,7 +390,6 @@ docker compose run gazebo    # or mujoco, webots
 ## ⁇  लिंक
 
 - [Feetech STS3215 सेवा](https://www.feetechrc.com/525603.html)
-- [Waveshare बस सर्वो एडाप्टर](https://www.waveshare.com/bus-servo-adapter-a.htm)
 - [STServo Python एसडीके](https://github.com/FEETECH-RC/STServo_SDK_Python)
 
 ---
