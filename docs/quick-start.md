@@ -1,5 +1,9 @@
 # Quick Start Guide
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/quick-start.md) · [Русский](i18n/ru/docs/quick-start.md) · [Español](i18n/es/docs/quick-start.md) · [Français](i18n/fr/docs/quick-start.md) · [Deutsch](i18n/de/docs/quick-start.md) · [Português (Brasil)](i18n/pt-BR/docs/quick-start.md) · [简体中文](i18n/zh-CN/docs/quick-start.md) · [日本語](i18n/ja/docs/quick-start.md) · [हिन्दी](i18n/hi/docs/quick-start.md) · [العربية](i18n/ar/docs/quick-start.md)
+<!-- /documentation-languages -->
+
 Get your Follower Gripper for SO-ARM101 up and running!
 
 [![SO-ARM101 Parallel Gripper](../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)

@@ -1,5 +1,9 @@
 # Simulation
 
+<!-- documentation-languages -->
+[English](../docs/i18n/en/simulation/README.md) · [Русский](../docs/i18n/ru/simulation/README.md) · [Español](../docs/i18n/es/simulation/README.md) · [Français](../docs/i18n/fr/simulation/README.md) · [Deutsch](../docs/i18n/de/simulation/README.md) · [Português (Brasil)](../docs/i18n/pt-BR/simulation/README.md) · [简体中文](../docs/i18n/zh-CN/simulation/README.md) · [日本語](../docs/i18n/ja/simulation/README.md) · [हिन्दी](../docs/i18n/hi/simulation/README.md) · [العربية](../docs/i18n/ar/simulation/README.md)
+<!-- /documentation-languages -->
+
 ROS2 simulation support for the SO-ARM-101 robotic arm with parallel gripper. A single parameterized URDF drives 5 physics engines through one launch file.
 
 ## Gazebo (Ignition Fortress)

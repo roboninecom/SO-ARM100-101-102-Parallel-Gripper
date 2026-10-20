@@ -1,5 +1,9 @@
 # Relicensing record
 
+<!-- documentation-languages -->
+[English](docs/i18n/en/RELICENSING.md) · [Русский](docs/i18n/ru/RELICENSING.md) · [Español](docs/i18n/es/RELICENSING.md) · [Français](docs/i18n/fr/RELICENSING.md) · [Deutsch](docs/i18n/de/RELICENSING.md) · [Português (Brasil)](docs/i18n/pt-BR/RELICENSING.md) · [简体中文](docs/i18n/zh-CN/RELICENSING.md) · [日本語](docs/i18n/ja/RELICENSING.md) · [हिन्दी](docs/i18n/hi/RELICENSING.md) · [العربية](docs/i18n/ar/RELICENSING.md)
+<!-- /documentation-languages -->
+
 This file records how and why this project moved off GPL-3.0, and the agreement
 of its contributors. It exists so the licence history is auditable without
 digging through git.

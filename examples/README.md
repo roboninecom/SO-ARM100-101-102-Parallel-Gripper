@@ -1,5 +1,9 @@
 # Examples - Parallel Gripper
 
+<!-- documentation-languages -->
+[English](../docs/i18n/en/examples/README.md) · [Русский](../docs/i18n/ru/examples/README.md) · [Español](../docs/i18n/es/examples/README.md) · [Français](../docs/i18n/fr/examples/README.md) · [Deutsch](../docs/i18n/de/examples/README.md) · [Português (Brasil)](../docs/i18n/pt-BR/examples/README.md) · [简体中文](../docs/i18n/zh-CN/examples/README.md) · [日本語](../docs/i18n/ja/examples/README.md) · [हिन्दी](../docs/i18n/hi/examples/README.md) · [العربية](../docs/i18n/ar/examples/README.md)
+<!-- /documentation-languages -->
+
 This directory contains example code demonstrating how to use the parallel gripper in various scenarios.
 
 ## Available Examples

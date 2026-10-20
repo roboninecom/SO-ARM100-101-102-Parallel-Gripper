@@ -38,6 +38,15 @@ path = "community/histology-slide-gripper/**"
 SPDX-FileCopyrightText = "Copyright (c) 2026 Michael Viacheslavov"
 SPDX-License-Identifier = "CC-BY-4.0"
 
+# Translated community documentation retains the original contributor credit.
+[[annotations]]
+path = "docs/i18n/*/community/histology-slide-gripper/**"
+SPDX-FileCopyrightText = [
+  "Copyright (c) 2026 Michael Viacheslavov",
+  "Copyright (c) 2026 Robonine",
+]
+SPDX-License-Identifier = "CC-BY-4.0"
+
 
 # ---------------------------------------------------------------------------
 # 3. Software.

@@ -1,5 +1,9 @@
 # Licensing of this package
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/so_arm_101_description/LICENSE.md) · [Русский](../../docs/i18n/ru/simulation/so_arm_101_description/LICENSE.md) · [Español](../../docs/i18n/es/simulation/so_arm_101_description/LICENSE.md) · [Français](../../docs/i18n/fr/simulation/so_arm_101_description/LICENSE.md) · [Deutsch](../../docs/i18n/de/simulation/so_arm_101_description/LICENSE.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/so_arm_101_description/LICENSE.md) · [简体中文](../../docs/i18n/zh-CN/simulation/so_arm_101_description/LICENSE.md) · [日本語](../../docs/i18n/ja/simulation/so_arm_101_description/LICENSE.md) · [हिन्दी](../../docs/i18n/hi/simulation/so_arm_101_description/LICENSE.md) · [العربية](../../docs/i18n/ar/simulation/so_arm_101_description/LICENSE.md)
+<!-- /documentation-languages -->
+
 `so_arm_101_description` is distributed as part of the
 [SO-ARM100/101 Parallel Gripper](https://github.com/roboninecom/SO-ARM100-101-Parallel-Gripper)
 project, which is multi-licensed. This file describes the package so it is

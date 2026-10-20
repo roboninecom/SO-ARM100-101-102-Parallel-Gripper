@@ -1,0 +1,415 @@
+<!-- translation-navigation -->
+[English](README.md) · [Русский](../ru/README.md) · [Español](../es/README.md) · [Français](../fr/README.md) · [Deutsch](../de/README.md) · [Português (Brasil)](../pt-BR/README.md) · [简体中文](../zh-CN/README.md) · [日本語](../ja/README.md) · [हिन्दी](../hi/README.md) · [العربية](../ar/README.md)
+
+[English source](../../../README.md)
+
+[English](README.md)
+
+> Complete English source copy. Images, code, CAD, and original PDFs are shared.
+<!-- /translation-navigation -->
+
+<!-- translated-content -->
+<a id="so-arm100101-parallel-gripper"></a>
+# SO-ARM100/101 Parallel Gripper
+
+<div align="center">
+
+[![SO-ARM101 Parallel Gripper](../../../assets/images/SO%20ARM%20101%20Parallel%20Gripper%20Live.jpg)](https://youtube.com/shorts/bSyXjgNGXZk)
+
+**🎥 [Watch the gripper in action!](https://youtube.com/shorts/bSyXjgNGXZk)** · **🛒 [Buy the SO-ARM102 kit with a parallel gripper](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**
+
+A lightweight 3D-printed parallel gripper designed by **[Robonine](https://robonine.com)** for the open-source SO-ARM100/101 robotic platform.
+
+> Prefer a complete robot arm kit with a parallel gripper? **[Buy the SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**.
+
+[![Hardware: CERN-OHL-P-2.0](https://img.shields.io/badge/Hardware-CERN--OHL--P--2.0-blue.svg)](../../../HARDWARE-LICENSE.txt)
+[![Software: Apache-2.0](https://img.shields.io/badge/Software-Apache--2.0-blue.svg)](../../../SOFTWARE-LICENSE.txt)
+[![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC%20BY%204.0-blue.svg)](../../../DOCS-LICENSE.txt)
+[![Cost: ~$50](https://img.shields.io/badge/Cost-~%2450-green.svg)](docs/bom.md)
+[![Assembly: 30min](https://img.shields.io/badge/Assembly-30%20min-orange.svg)](docs/assembly-guide.md)
+
+---
+
+**Questions? We're here to help!**
+📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
+
+</div>
+
+---
+
+<a id="-key-features"></a>
+## ✨ Key Features
+
+| Feature | Description |
+|---------|-------------|
+| **120N Gripping Force** | Reliable parallel jaw mechanism |
+| **14 mm/s Speed** | Gripper operation speed |
+| **84mm Full Stroke** | Wide opening for various objects |
+| **0.5mm Repeatability** | High precision positioning |
+| **Camera Compatible** | Supports RealSense, Orbbec, USB cameras |
+| **3D Printable** | All parts print on standard FDM printers |
+| **~$50 Total Cost** | Affordable open-source solution |
+| **Easy Assembly** | 30-45 minutes with basic tools |
+
+---
+
+<a id="-gallery"></a>
+## 📸 Gallery
+
+<div align="center">
+
+<a id="gripper-on-so-arm101"></a>
+### Gripper on SO-ARM101
+
+![Gripper mounted on SO-ARM101](../../../assets/images/specification/07-gripper-on-so-arm100.jpg)
+
+*Follower gripper integrated with SO-ARM101 robot arm*
+
+<a id="dimensions"></a>
+### Dimensions
+
+![Gripper dimensions](../../../assets/images/specification/08-gripper-dimensions-3d.png)
+
+*128 × 109 × 130.5 mm, full stroke 84 mm*
+
+</div>
+
+---
+
+<a id="-specifications"></a>
+## 📋 Specifications
+
+<a id="gripper-parameters"></a>
+### Gripper Parameters
+
+| Parameter | Value |
+|-----------|-------|
+| Maximum gripping force | **120 N** |
+| Maximum gripping speed | **14 mm/s** |
+| Full stroke | **84 mm** |
+| Repeatability | **0.5 mm** |
+| Assembly mass (PLA, 30% infill) | **170 g** |
+| DOF | **1** |
+
+<a id="dimensions-1"></a>
+### Dimensions
+
+| Dimension | Value |
+|-----------|-------|
+| Width | 128 mm |
+| Depth | 130.5 mm |
+| Height | 109 mm |
+
+<a id="servo-parameters-feetech-sts3215"></a>
+### Servo Parameters (Feetech STS3215)
+
+| Parameter | Value |
+|-----------|-------|
+| Operating Voltage | 12V |
+| Stall torque | 30 kg·cm |
+| Speed (no load) | 45 RPM |
+| Encoder | Absolute magnetic 12-bit |
+| Protocol | RS485/TTL up to 1 Mbps |
+| Operating temperature | -20°C ~ 60°C |
+
+---
+
+<a id="-camera-compatibility"></a>
+## 📷 Camera Compatibility
+
+The gripper supports multiple cameras via interchangeable camera holder:
+
+| Camera | Type | Use Case |
+|--------|------|----------|
+| IMX335 5MP USB | RGB | Basic vision tasks |
+| GC2093 2MP USB | RGB | Budget option |
+| Orbbec Gemini 2 | RGB-D | 3D perception |
+| RealSense D405 | RGB-D | Close-range depth |
+| RealSense D435/D435i | RGB-D | General purpose |
+| RealSense D455 | RGB-D | Long-range depth |
+
+<div align="center">
+
+![Different cameras mounted on gripper](../../../assets/images/specification/09-camera-types.png)
+
+*RealSense, USB camera module, Orbbec Gemini 2*
+
+</div>
+
+---
+
+<a id="-bill-of-materials"></a>
+## 💰 Bill of Materials
+
+**Total Cost: ~$50** ([Full BOM with Amazon links](docs/bom.md))
+
+| Category | Components | Est. Cost |
+|----------|------------|-----------|
+| Electronics | Feetech STS3215 Servo | ~$29 |
+| Bearings | MF106ZZ (x2) | ~$2 |
+| Aluminium/Carbon Tubes | D6x1×125mm (x2) | ~$4 |
+| 3D Printing | 8 parts (~100-150g PLA) | ~$12 |
+| Fasteners | M2/M4 screws, M2 nuts, M3 set screws | ~$3 |
+
+---
+
+<a id="-quick-start"></a>
+## 🚀 Quick Start
+
+For a complete robot arm kit with a parallel gripper, **[buy the SO-ARM102 kit](https://robonine.com/shop/so-arm102-robotic-arm-kit/)**. To build the SO-ARM100/101 gripper yourself, follow the steps below.
+
+<a id="1-print-the-parts-2-4-hours"></a>
+### 1. Print the Parts (2-4 hours)
+
+Download STL files from [`models/parts/`](models/README.md). Compatible with popular printers like **Bambu Lab A1 mini**, **Prusa MINI+**, and any printer with ≥180×180mm bed.
+
+| Part | Qty | Settings |
+|------|:---:|----------|
+| Main frame (RB9.01.062.010) | 1 | 20% infill |
+| Clamp (RB9.01.062.020) | 2 | 20% infill |
+| Gear rack (RB9.01.062.030) | 2 | 100% infill |
+| Gear (RB9.01.062.040) | 1 | 100% infill |
+| Camera holder (RB9.01.060.074) | 1 | 20% infill |
+| Holder (RB9.01.060.080) | 1 | 20% infill |
+| Camera Spacer (RB9.01.060.090) | 1 | 20% infill |
+| D405 holder (RB9.01.060.110) | 1 | 20% infill |
+
+<a id="2-order-components-1-2-days"></a>
+### 2. Order Components (1-2 days)
+
+See [Bill of Materials](docs/bom.md) for direct Amazon links.
+
+<a id="3-assemble-30-45-minutes"></a>
+### 3. Assemble (30-45 minutes)
+
+Follow the [Assembly Guide](docs/assembly-guide.md) with step-by-step images:
+
+1. Mount gear on servo disc, install this assembly on servo
+2. Insert servo cable
+3. Using Feetech software move servo to its minimal position (move the slider in the software to the left)
+4. Attach gear racks to clamps
+5. Inserts the rods into both clamps
+6. Install bearings on main frame and fix with srews
+7. Snap the rods into the frame
+8. Spread the clamps to the extreme positions on the left and right
+9. Insert servo and fix it with screws
+10. Attach Camera Spacer and UVC camera, fix with 4x screws and nuts M2 (optional)
+11. Mount to robot arm (optional)
+
+<a id="4-software"></a>
+### 4. Software
+
+```bash
+# Configure servo motor if necessary
+https://lab.robonine.com/tools/robonine/feetech-bus
+
+# Control gripper
+https://lab.robonine.com/tools/robonine/control-robot
+```
+
+---
+
+<a id="-repository-structure"></a>
+## 📁 Repository Structure
+
+```
+├── assets/
+│   └── images/
+│       ├── assembly/          # Assembly step images
+│       └── specification/     # Technical drawings
+├── docs/
+│   ├── assembly-guide.md                # Step-by-step assembly
+│   ├── bom.md                           # Bill of materials with links
+│   ├── Parallel gripper by Robo9.pdf    # Gripper product specification
+│   ├── quick-start.md                   # Getting started guide
+│   ├── SO-ARM101 by Robo9.pdf           # SO-ARM101 product specification
+│   └── specifications.md               # Technical specifications
+├── models/
+│   ├── parts/                                    # Individual STL files
+│   └── Follower gripper (165x165 bed size).STL   # Complete assembly (165×165mm bed)
+├── community/
+│   └── histology-slide-gripper/   # Community variant (CAD, MuJoCo model)
+├── simulation/
+│   ├── README.md                  # Simulation overview
+│   ├── gazebo/                    # Gazebo guide
+│   ├── mujoco/                    # MuJoCo guide
+│   ├── webots/                    # Webots guide
+│   ├── coppeliasim/               # CoppeliaSim guide
+│   ├── isaac_sim/                 # Isaac Sim guide
+│   └── so_arm_101_description/    # ROS2 package (URDF, launch, Docker)
+├── software/
+│   └── python/                # Control software
+├── examples/                  # Usage examples
+├── HARDWARE-LICENSE.txt       # CERN-OHL-P-2.0 (CAD, geometry)
+├── SOFTWARE-LICENSE.txt       # Apache-2.0 (code)
+├── DOCS-LICENSE.txt           # CC BY 4.0 (docs, images)
+├── LICENSING.md               # Which licence covers what
+├── NOTICE                     # Third-party attribution
+├── REUSE.toml                 # Machine-readable licence map
+├── RELICENSING.md             # Record of the 2026 relicensing
+└── CONTRIBUTING.md
+```
+
+---
+
+<a id="-documentation"></a>
+## 📖 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [Quick Start Guide](docs/quick-start.md) | Get running in 30 minutes |
+| [Assembly Guide](docs/assembly-guide.md) | Step-by-step with images |
+| [Gripper Assembly Guide (PDF)](../../Assembly%20Guide%20Follower%20Gripper.pdf) | Printable gripper assembly instructions |
+| [SO-ARM101 Assembly Guide (PDF)](../../Assembly%20Guide%20SO-ARM101.pdf) | Full SO-ARM101 arm assembly instructions |
+| [Bill of Materials](docs/bom.md) | Parts list with Amazon links |
+| [Specifications](docs/specifications.md) | Technical details |
+| [3D Models](models/README.md) | Print settings and files |
+| [Parallel Gripper Product Spec (PDF)](../../Parallel%20gripper%20by%20Robo9.pdf) | Parallel gripper product specification by Robo9 |
+| [SO-ARM101 Product Spec (PDF)](../../SO-ARM101%20by%20Robo9.pdf) | SO-ARM101 robot arm product specification by Robo9 |
+
+---
+
+<a id="-hardware-requirements"></a>
+## 🔧 Hardware Requirements
+
+<a id="electronics"></a>
+### Electronics
+- 1× Feetech STS3215 Servo Motor
+
+Connect the gripper to the existing SO-ARM100/101 servo bus and controller.
+The robot controller and power supply are part of the arm setup, outside the gripper BOM.
+
+<a id="mechanical"></a>
+### Mechanical
+- 2× MF106ZZ Bearings (6×10×3 mm)
+- 2× Aluminium/Carbon Tubes D6x1×125 mm
+
+<a id="fasteners"></a>
+### Fasteners
+- 2× M4×8 DIN 7991 screws
+- 4x M2x8 DIN 912 screws
+- 4× M2 DIN 934 nuts
+- 4× M3×4 DIN 913 set screws
+
+<a id="tools-required"></a>
+### Tools Required
+- Phillips head screwdriver (PH1)
+- Hex keys M2 (H1.5) and M4 (H2.5)
+
+---
+
+<a id="-simulation"></a>
+## 🖥️ Simulation
+
+The SO-ARM101 can be simulated in 5 physics engines using a ROS2 description package with a single parameterized URDF. No ROS2 installation required -- Docker handles everything.
+
+<div align="center">
+
+| Gazebo (Ignition Fortress) | MuJoCo |
+|:-:|:-:|
+| ![SO-ARM-101 in Gazebo](../../../assets/images/simulation/gazebo/gazebo_pick_place.png) | ![SO-ARM-101 in MuJoCo](../../../assets/images/simulation/mujoco/mujoco_pick_place.png) |
+
+</div>
+
+| Simulator | Status | Docker |
+|-----------|--------|--------|
+| [Gazebo](simulation/gazebo/README.md) | Ready | `docker compose run gazebo` |
+| [MuJoCo](simulation/mujoco/README.md) | Ready | `docker compose run mujoco` |
+| [Webots](simulation/webots/README.md) | Unstable | `docker compose run webots` |
+| [CoppeliaSim](simulation/coppeliasim/README.md) | Not tested | External simulator |
+| [NVIDIA Isaac Sim](simulation/isaac_sim/README.md) | Not tested | External simulator |
+
+**Quick start (Docker):**
+
+```bash
+cd simulation/so_arm_101_description
+docker compose run gazebo    # or mujoco, webots
+```
+
+See the [Simulation Guide](simulation/README.md) for full setup, architecture details, and robot commanding.
+
+---
+
+<a id="-community-mods"></a>
+## 🔬 Community Mods
+
+Variants of the gripper built by the community, each self-contained in [`community/`](../../../community):
+
+| Mod | Author | Description |
+|-----|--------|-------------|
+| [Histology Slide Gripper](community/histology-slide-gripper/README.md) | [Michael Viacheslavov](https://github.com/histochemichael) | Clamps for 75 x 25 mm microscope slides and staining dippers/racks, plus an angled Arducam holder for monitoring the grasp. |
+
+<div align="center">
+
+<a href="community/histology-slide-gripper/README.md"><img src="../../../community/histology-slide-gripper/assets/slide-gripper-single-slide.jpg" alt="Histology slide gripper mod holding a microscope slide" width="400"></a>
+
+*Histology Slide Gripper mod — click for full description, CAD files, and demo*
+
+</div>
+
+---
+
+<a id="-contributing"></a>
+## 🤝 Contributing
+
+We welcome contributions! Please feel free to:
+- 🐛 Report bugs and issues
+- 💡 Suggest new features
+- 🔧 Submit pull requests
+- 📖 Improve documentation
+
+---
+
+<a id="-license"></a>
+## 📄 License
+
+Copyright (c) 2025 Robonine. This project is multi-licensed — different kinds of
+material carry different licences:
+
+| Material | Licence |
+|---|---|
+| Hardware designs — `models/`, community CAD, gripper meshes | [CERN-OHL-P-2.0](../../../HARDWARE-LICENSE.txt) |
+| Software — `software/`, `examples/`, `simulation/`, simulation code in `community/` | [Apache-2.0](../../../SOFTWARE-LICENSE.txt) |
+| Documentation and images — `docs/`, `assets/`, all `README.md` | [CC BY 4.0](../../../DOCS-LICENSE.txt) |
+
+See [`LICENSING.md`](LICENSING.md) for the exact file-by-file map and
+[`REUSE.toml`](../../../REUSE.toml) for the machine-readable version.
+
+**Not everything here is Robonine's work.** The SO-ARM101 arm meshes are derived
+from [TheRobotStudio's upstream project](https://github.com/TheRobotStudio/SO-ARM100)
+and remain Apache-2.0; the histology slide gripper was contributed by
+[@histochemichael](https://github.com/histochemichael). See [`NOTICE`](../../../NOTICE)
+before reusing any mesh.
+
+Releases up to and including `v0.3.1` were published under GPL-3.0 and remain
+available under those terms — see [`RELICENSING.md`](RELICENSING.md).
+
+---
+
+<a id="-links"></a>
+## 🔗 Links
+
+- [Feetech STS3215 Servo](https://www.feetechrc.com/525603.html)
+- [STServo Python SDK](https://github.com/FEETECH-RC/STServo_SDK_Python)
+
+---
+
+<a id="-engineering-team"></a>
+## 👥 Engineering Team
+
+| Name | Role | Contact |
+|------|------|---------|
+| **Boris Kotov** | Software Engineer | [Telegram](https://t.me/bkotov) |
+| **Alan Subin** | Design Engineer | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
+
+---
+
+<div align="center">
+
+**Built for the robotics community by [Robonine](https://robonine.com)** 🤖
+
+**Questions? We're here to help!**
+📩 Email: [hello@robonine.com](mailto:hello@robonine.com)
+
+</div>
+<!-- /translated-content -->

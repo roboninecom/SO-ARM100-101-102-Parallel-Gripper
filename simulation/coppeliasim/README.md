@@ -1,5 +1,9 @@
 # CoppeliaSim
 
+<!-- documentation-languages -->
+[English](../../docs/i18n/en/simulation/coppeliasim/README.md) · [Русский](../../docs/i18n/ru/simulation/coppeliasim/README.md) · [Español](../../docs/i18n/es/simulation/coppeliasim/README.md) · [Français](../../docs/i18n/fr/simulation/coppeliasim/README.md) · [Deutsch](../../docs/i18n/de/simulation/coppeliasim/README.md) · [Português (Brasil)](../../docs/i18n/pt-BR/simulation/coppeliasim/README.md) · [简体中文](../../docs/i18n/zh-CN/simulation/coppeliasim/README.md) · [日本語](../../docs/i18n/ja/simulation/coppeliasim/README.md) · [हिन्दी](../../docs/i18n/hi/simulation/coppeliasim/README.md) · [العربية](../../docs/i18n/ar/simulation/coppeliasim/README.md)
+<!-- /documentation-languages -->
+
 **Status: Not tested (external simulator)**
 
 CoppeliaSim runs externally and communicates with ROS2 via `topic_based_ros2_control`. You run CoppeliaSim separately and launch the ROS2 side with `sim:=coppeliasim`.

@@ -1,5 +1,9 @@
 # SO ARM 100/101 Parallel Follower Gripper
 
+<!-- documentation-languages -->
+[English](i18n/en/docs/specifications.md) · [Русский](i18n/ru/docs/specifications.md) · [Español](i18n/es/docs/specifications.md) · [Français](i18n/fr/docs/specifications.md) · [Deutsch](i18n/de/docs/specifications.md) · [Português (Brasil)](i18n/pt-BR/docs/specifications.md) · [简体中文](i18n/zh-CN/docs/specifications.md) · [日本語](i18n/ja/docs/specifications.md) · [हिन्दी](i18n/hi/docs/specifications.md) · [العربية](i18n/ar/docs/specifications.md)
+<!-- /documentation-languages -->
+
 ## Overview
 
 Lightweight 3D-printed end-effector designed by **Robonine** for the open-source teleoperating robotic platform SO ARM 100/101. The mechanism provides reliable parallel jaw motion and sufficient gripping force for a broad range of educational and experimental applications.
