@@ -349,6 +349,13 @@ Variantes de l'adhésif construites par la communauté, chacune autonome [`commu
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ Historique des étoiles
+
+[![Historique des étoiles](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇  Contribution
 
@@ -401,13 +408,6 @@ disponible en vertu de ces conditions  ⁇  voir [`RELICENSING.md`](RELICENSING.
 |------|------|---------|
 | **Boris Kotov** | Ingénieur logiciel | [Télégramme](https://t.me/bkotov) |
 | **Alan Subin** | Ingénieur de conception | [Résultats](https://www.linkedin.com/in/alan-subin/) |
-
----
-
-<a id="-star-history"></a>
-## ⭐ Historique des étoiles
-
-[![Historique des étoiles](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
 
 ---
 

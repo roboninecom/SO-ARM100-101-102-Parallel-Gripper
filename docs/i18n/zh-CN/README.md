@@ -349,6 +349,13 @@ docker compose run gazebo    # or mujoco, webots
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ 星标历史
+
+[![星标历史](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇ 贡献
 
@@ -401,13 +408,6 @@ docker compose run gazebo    # or mujoco, webots
 |------|------|---------|
 | **博里斯·科托夫** | 软件工程师 | [电报](https://t.me/bkotov) |
 | **艾伦·苏宾** | 设计工程师 | [链接](https://www.linkedin.com/in/alan-subin/) |
-
----
-
-<a id="-star-history"></a>
-## ⭐ 星标历史
-
-[![星标历史](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
 
 ---
 

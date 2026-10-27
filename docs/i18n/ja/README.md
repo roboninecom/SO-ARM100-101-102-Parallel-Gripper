@@ -349,6 +349,13 @@ docker compose run gazebo    # or mujoco, webots
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ スター履歴
+
+[![スター履歴](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇ 貢献
 
@@ -401,13 +408,6 @@ docker compose run gazebo    # or mujoco, webots
 |------|------|---------|
 | **ボリス・コトフ** | ソフトウェアエンジニア | [テレグラム](https://t.me/bkotov) |
 | **アラン・サビン** | 設計技術者 | [リンクイン](https://www.linkedin.com/in/alan-subin/) |
-
----
-
-<a id="-star-history"></a>
-## ⭐ スター履歴
-
-[![スター履歴](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
 
 ---
 

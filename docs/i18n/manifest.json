@@ -180,56 +180,56 @@
       }
     },
     "README.md": {
-      "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+      "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
       "translations": {
         "en": {
           "path": "docs/i18n/en/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "source-copy"
         },
         "ru": {
           "path": "docs/i18n/ru/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "es": {
           "path": "docs/i18n/es/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "fr": {
           "path": "docs/i18n/fr/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "de": {
           "path": "docs/i18n/de/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "pt-BR": {
           "path": "docs/i18n/pt-BR/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "zh-CN": {
           "path": "docs/i18n/zh-CN/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "ja": {
           "path": "docs/i18n/ja/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "hi": {
           "path": "docs/i18n/hi/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         },
         "ar": {
           "path": "docs/i18n/ar/README.md",
-          "source_sha256": "7b729407f50d4bbfca5585c442b5c59c2b551c671decad14a7d15c2ed9e4712d",
+          "source_sha256": "f9c9e4922f8584d6a1ac4a6a4a165e71f1b43b2f35560c6fc1dd5fca1b5c7b4a",
           "review": "structural-checks-only"
         }
       }

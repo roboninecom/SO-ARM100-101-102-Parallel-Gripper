@@ -317,6 +317,12 @@ Variants of the gripper built by the community, each self-contained in [`communi
 
 ---
 
+## ⭐ Star History
+
+[![Star History](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 ## 🤝 Contributing
 
 We welcome contributions! Please feel free to:
@@ -365,12 +371,6 @@ available under those terms — see [`RELICENSING.md`](RELICENSING.md).
 |------|------|---------|
 | **Boris Kotov** | Software Engineer | [Telegram](https://t.me/bkotov) |
 | **Alan Subin** | Design Engineer | [LinkedIn](https://www.linkedin.com/in/alan-subin/) |
-
----
-
-## ⭐ Star History
-
-[![Star History](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
 
 ---
 

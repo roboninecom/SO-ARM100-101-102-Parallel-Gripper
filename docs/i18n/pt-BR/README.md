@@ -349,6 +349,13 @@ Variantes do agarrador construídas pela comunidade, cada uma autónoma [`commun
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ Histórico de estrelas
+
+[![Histórico de estrelas](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇  Contribuição
 
@@ -401,13 +408,6 @@ Disponível nos termos destes termos  ⁇  ver [`RELICENSING.md`](RELICENSING.md
 |------|------|---------|
 | **Boris Kotov** | Engenheiro de software | [Telegrama](https://t.me/bkotov) |
 | **Alan Subin** | Engenheiro de Design | [Linkedin](https://www.linkedin.com/in/alan-subin/) |
-
----
-
-<a id="-star-history"></a>
-## ⭐ Histórico de estrelas
-
-[![Histórico de estrelas](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
 
 ---
 
