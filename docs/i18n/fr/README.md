@@ -349,6 +349,13 @@ Variantes de l'adhésif construites par la communauté, chacune autonome [`commu
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ Historique des étoiles
+
+[![Historique des étoiles](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇  Contribution
 

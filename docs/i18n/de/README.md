@@ -349,6 +349,13 @@ Varianten des von der Gemeinschaft gebauten Grippers, die jeweils selbständig i
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ Sternverlauf
+
+[![Sternverlauf](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <a id="-contributing"></a>
 ## ⁇  Mitwirkung
 
