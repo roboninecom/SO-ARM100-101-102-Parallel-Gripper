@@ -404,6 +404,13 @@ docker compose run gazebo    # or mujoco, webots
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ سجل النجوم
+
+[![سجل النجوم](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <div align="center">
 
 **بنيت لمجتمع الروبوتات من قبل [Robonine](https://robonine.com)** 🤖

@@ -404,6 +404,13 @@ disponible bajo dichos términos  ⁇  ver [`RELICENSING.md`](RELICENSING.md).
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ Historial de estrellas
+
+[![Historial de estrellas](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <div align="center">
 
 **Construido para la comunidad robótica por [Robonine](https://robonine.com)** 🤖

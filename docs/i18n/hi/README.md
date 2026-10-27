@@ -404,6 +404,13 @@ docker compose run gazebo    # or mujoco, webots
 
 ---
 
+<a id="-star-history"></a>
+## ⭐ स्टार का इतिहास
+
+[![स्टार का इतिहास](https://api.star-history.com/svg?repos=roboninecom/so-arm100-101-parallel-gripper&type=Date&legend=top-left)](https://www.star-history.com/?repos=roboninecom%2Fso-arm100-101-parallel-gripper&type=date&legend=top-left)
+
+---
+
 <div align="center">
 
 **रोबोटिक्स समुदाय के लिए बनाया गया [Robonine](https://robonine.com)** 🤖
