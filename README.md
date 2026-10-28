@@ -1,4 +1,4 @@
-# SO-ARM100/101 Parallel Gripper
+# SO-ARM100/101/102 Parallel Gripper
 
 <!-- documentation-languages -->
 [English](docs/i18n/en/README.md) · [Русский](docs/i18n/ru/README.md) · [Español](docs/i18n/es/README.md) · [Français](docs/i18n/fr/README.md) · [Deutsch](docs/i18n/de/README.md) · [Português (Brasil)](docs/i18n/pt-BR/README.md) · [简体中文](docs/i18n/zh-CN/README.md) · [日本語](docs/i18n/ja/README.md) · [हिन्दी](docs/i18n/hi/README.md) · [العربية](docs/i18n/ar/README.md)
